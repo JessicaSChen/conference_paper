@@ -1,0 +1,2664 @@
+2026-01-15 20:49:19,200 - INFO - Timestamp: 2026-01-15T20:49:19.200117
+2026-01-15 20:49:19,200 - INFO - dataset_path='./dataset'
+2026-01-15 20:49:19,200 - INFO - model_path='./huggingface-models/models--facebook--wav2vec2-base-960h/snapshots/22aad52d435eb6dbaf354bdad9b0da84ce7d6156'
+2026-01-15 20:49:19,200 - INFO - outputs_path='huggingface-wav2vec2-base960h-outputs/huggingface-outputs-02'
+
+2026-01-15 20:49:19,200 - INFO - Normalizing baseline text...
+2026-01-15 20:49:19,964 - INFO - Creating ClassifyFst grammars.
+2026-01-15 20:49:28,959 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:49:29,881 - INFO - Finished normalizing baseline text in: 10.681014 seconds.
+
+2026-01-15 20:49:29,881 - INFO - Loading model: ./huggingface-models/models--facebook--wav2vec2-base-960h/snapshots/22aad52d435eb6dbaf354bdad9b0da84ce7d6156...
+2026-01-15 20:49:30,178 - INFO - Number of audio files = 350
+2026-01-15 20:49:30,178 - INFO - -------------------------------------------------
+2026-01-15 20:49:30,178 - INFO - Transcribing 1/350: ./dataset/American_Female_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:49:31,646 - INFO - Finished transcribing in: 1.468059 seconds.
+
+2026-01-15 20:49:31,646 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:31,646 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:49:32,261 - INFO - Finished normalizing output text in: 0.614956 seconds.
+
+2026-01-15 20:49:32,265 - INFO - -------------------------------------------------
+2026-01-15 20:49:32,265 - INFO - Transcribing 2/350: ./dataset/American_Female_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:49:33,448 - INFO - Finished transcribing in: 1.182567 seconds.
+
+2026-01-15 20:49:33,448 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:33,809 - INFO - Finished normalizing output text in: 0.361482 seconds.
+
+2026-01-15 20:49:33,815 - INFO - -------------------------------------------------
+2026-01-15 20:49:33,815 - INFO - Transcribing 3/350: ./dataset/American_Female_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:49:34,979 - INFO - Finished transcribing in: 1.164344 seconds.
+
+2026-01-15 20:49:34,979 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:34,986 - INFO - Finished normalizing output text in: 0.006569 seconds.
+
+2026-01-15 20:49:34,992 - INFO - -------------------------------------------------
+2026-01-15 20:49:34,992 - INFO - Transcribing 4/350: ./dataset/American_Female_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:49:36,170 - INFO - Finished transcribing in: 1.178648 seconds.
+
+2026-01-15 20:49:36,170 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:36,230 - INFO - Finished normalizing output text in: 0.059698 seconds.
+
+2026-01-15 20:49:36,236 - INFO - -------------------------------------------------
+2026-01-15 20:49:36,236 - INFO - Transcribing 5/350: ./dataset/American_Female_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:49:37,427 - INFO - Finished transcribing in: 1.191075 seconds.
+
+2026-01-15 20:49:37,427 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:37,430 - INFO - Finished normalizing output text in: 0.003273 seconds.
+
+2026-01-15 20:49:37,436 - INFO - -------------------------------------------------
+2026-01-15 20:49:37,436 - INFO - Transcribing 6/350: ./dataset/American_Female_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:49:38,643 - INFO - Finished transcribing in: 1.207172 seconds.
+
+2026-01-15 20:49:38,643 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:38,643 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:49:39,306 - INFO - Finished normalizing output text in: 0.663181 seconds.
+
+2026-01-15 20:49:39,312 - INFO - -------------------------------------------------
+2026-01-15 20:49:39,312 - INFO - Transcribing 7/350: ./dataset/American_Female_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:49:40,494 - INFO - Finished transcribing in: 1.182053 seconds.
+
+2026-01-15 20:49:40,494 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:40,494 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:49:41,168 - INFO - Finished normalizing output text in: 0.673462 seconds.
+
+2026-01-15 20:49:41,173 - INFO - -------------------------------------------------
+2026-01-15 20:49:41,173 - INFO - Transcribing 8/350: ./dataset/American_Female_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:49:42,357 - INFO - Finished transcribing in: 1.183979 seconds.
+
+2026-01-15 20:49:42,358 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:42,358 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:49:42,938 - INFO - Finished normalizing output text in: 0.580168 seconds.
+
+2026-01-15 20:49:42,944 - INFO - -------------------------------------------------
+2026-01-15 20:49:42,944 - INFO - Transcribing 9/350: ./dataset/American_Female_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:49:44,135 - INFO - Finished transcribing in: 1.190825 seconds.
+
+2026-01-15 20:49:44,135 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:44,135 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:49:44,789 - INFO - Finished normalizing output text in: 0.654413 seconds.
+
+2026-01-15 20:49:44,795 - INFO - -------------------------------------------------
+2026-01-15 20:49:44,795 - INFO - Transcribing 10/350: ./dataset/American_Female_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:49:45,976 - INFO - Finished transcribing in: 1.181453 seconds.
+
+2026-01-15 20:49:45,976 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:45,977 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:49:46,646 - INFO - Finished normalizing output text in: 0.669635 seconds.
+
+2026-01-15 20:49:46,652 - INFO - -------------------------------------------------
+2026-01-15 20:49:46,652 - INFO - Transcribing 11/350: ./dataset/American_Female_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:49:47,850 - INFO - Finished transcribing in: 1.198025 seconds.
+
+2026-01-15 20:49:47,850 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:47,850 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:49:48,491 - INFO - Finished normalizing output text in: 0.641174 seconds.
+
+2026-01-15 20:49:48,497 - INFO - -------------------------------------------------
+2026-01-15 20:49:48,497 - INFO - Transcribing 12/350: ./dataset/American_Female_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:49:49,682 - INFO - Finished transcribing in: 1.185413 seconds.
+
+2026-01-15 20:49:49,683 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:49,683 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:49:50,243 - INFO - Finished normalizing output text in: 0.560277 seconds.
+
+2026-01-15 20:49:50,249 - INFO - -------------------------------------------------
+2026-01-15 20:49:50,249 - INFO - Transcribing 13/350: ./dataset/American_Female_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:49:51,422 - INFO - Finished transcribing in: 1.173293 seconds.
+
+2026-01-15 20:49:51,422 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:51,425 - INFO - Finished normalizing output text in: 0.003024 seconds.
+
+2026-01-15 20:49:51,430 - INFO - -------------------------------------------------
+2026-01-15 20:49:51,430 - INFO - Transcribing 14/350: ./dataset/American_Female_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:49:52,627 - INFO - Finished transcribing in: 1.196986 seconds.
+
+2026-01-15 20:49:52,628 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:52,965 - INFO - Finished normalizing output text in: 0.337217 seconds.
+
+2026-01-15 20:49:52,970 - INFO - -------------------------------------------------
+2026-01-15 20:49:52,971 - INFO - Transcribing 15/350: ./dataset/American_Female_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:49:54,150 - INFO - Finished transcribing in: 1.179827 seconds.
+
+2026-01-15 20:49:54,150 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:54,160 - INFO - Finished normalizing output text in: 0.009793 seconds.
+
+2026-01-15 20:49:54,166 - INFO - -------------------------------------------------
+2026-01-15 20:49:54,166 - INFO - Transcribing 16/350: ./dataset/American_Female_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:49:55,352 - INFO - Finished transcribing in: 1.186516 seconds.
+
+2026-01-15 20:49:55,353 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:55,353 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:49:56,001 - INFO - Finished normalizing output text in: 0.648409 seconds.
+
+2026-01-15 20:49:56,007 - INFO - -------------------------------------------------
+2026-01-15 20:49:56,007 - INFO - Transcribing 17/350: ./dataset/American_Female_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:49:57,223 - INFO - Finished transcribing in: 1.215966 seconds.
+
+2026-01-15 20:49:57,223 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:57,223 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:49:57,849 - INFO - Finished normalizing output text in: 0.626365 seconds.
+
+2026-01-15 20:49:57,855 - INFO - -------------------------------------------------
+2026-01-15 20:49:57,855 - INFO - Transcribing 18/350: ./dataset/American_Female_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:49:59,045 - INFO - Finished transcribing in: 1.189605 seconds.
+
+2026-01-15 20:49:59,045 - INFO - Normalizing output transcribed text...
+2026-01-15 20:49:59,057 - INFO - Finished normalizing output text in: 0.012733 seconds.
+
+2026-01-15 20:49:59,063 - INFO - -------------------------------------------------
+2026-01-15 20:49:59,063 - INFO - Transcribing 19/350: ./dataset/American_Female_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:50:00,249 - INFO - Finished transcribing in: 1.186548 seconds.
+
+2026-01-15 20:50:00,250 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:00,250 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:00,828 - INFO - Finished normalizing output text in: 0.578092 seconds.
+
+2026-01-15 20:50:00,833 - INFO - -------------------------------------------------
+2026-01-15 20:50:00,833 - INFO - Transcribing 20/350: ./dataset/American_Female_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:50:02,021 - INFO - Finished transcribing in: 1.187122 seconds.
+
+2026-01-15 20:50:02,021 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:02,285 - INFO - Finished normalizing output text in: 0.264191 seconds.
+
+2026-01-15 20:50:02,291 - INFO - -------------------------------------------------
+2026-01-15 20:50:02,291 - INFO - Transcribing 21/350: ./dataset/American_Female_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:50:03,475 - INFO - Finished transcribing in: 1.184208 seconds.
+
+2026-01-15 20:50:03,475 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:03,475 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:04,119 - INFO - Finished normalizing output text in: 0.643682 seconds.
+
+2026-01-15 20:50:04,124 - INFO - -------------------------------------------------
+2026-01-15 20:50:04,124 - INFO - Transcribing 22/350: ./dataset/American_Female_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:50:05,312 - INFO - Finished transcribing in: 1.187941 seconds.
+
+2026-01-15 20:50:05,312 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:05,313 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:05,971 - INFO - Finished normalizing output text in: 0.658374 seconds.
+
+2026-01-15 20:50:05,977 - INFO - -------------------------------------------------
+2026-01-15 20:50:05,977 - INFO - Transcribing 23/350: ./dataset/American_Female_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:50:07,155 - INFO - Finished transcribing in: 1.178655 seconds.
+
+2026-01-15 20:50:07,155 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:07,530 - INFO - Finished normalizing output text in: 0.374794 seconds.
+
+2026-01-15 20:50:07,536 - INFO - -------------------------------------------------
+2026-01-15 20:50:07,536 - INFO - Transcribing 24/350: ./dataset/American_Female_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:50:08,742 - INFO - Finished transcribing in: 1.205653 seconds.
+
+2026-01-15 20:50:08,742 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:08,742 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:09,407 - INFO - Finished normalizing output text in: 0.665565 seconds.
+
+2026-01-15 20:50:09,413 - INFO - -------------------------------------------------
+2026-01-15 20:50:09,413 - INFO - Transcribing 25/350: ./dataset/American_Female_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:50:10,604 - INFO - Finished transcribing in: 1.190989 seconds.
+
+2026-01-15 20:50:10,604 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:10,604 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:11,178 - INFO - Finished normalizing output text in: 0.574400 seconds.
+
+2026-01-15 20:50:11,184 - INFO - -------------------------------------------------
+2026-01-15 20:50:11,184 - INFO - Transcribing 26/350: ./dataset/American_Male_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:50:12,376 - INFO - Finished transcribing in: 1.192207 seconds.
+
+2026-01-15 20:50:12,377 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:12,377 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:13,001 - INFO - Finished normalizing output text in: 0.624886 seconds.
+
+2026-01-15 20:50:13,007 - INFO - -------------------------------------------------
+2026-01-15 20:50:13,010 - INFO - Transcribing 27/350: ./dataset/American_Male_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:50:14,211 - INFO - Finished transcribing in: 1.200840 seconds.
+
+2026-01-15 20:50:14,211 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:14,623 - INFO - Finished normalizing output text in: 0.411963 seconds.
+
+2026-01-15 20:50:14,629 - INFO - -------------------------------------------------
+2026-01-15 20:50:14,629 - INFO - Transcribing 28/350: ./dataset/American_Male_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:50:15,803 - INFO - Finished transcribing in: 1.174014 seconds.
+
+2026-01-15 20:50:15,803 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:15,807 - INFO - Finished normalizing output text in: 0.004207 seconds.
+
+2026-01-15 20:50:15,813 - INFO - -------------------------------------------------
+2026-01-15 20:50:15,813 - INFO - Transcribing 29/350: ./dataset/American_Male_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:50:16,995 - INFO - Finished transcribing in: 1.182559 seconds.
+
+2026-01-15 20:50:16,996 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:17,165 - INFO - Finished normalizing output text in: 0.169829 seconds.
+
+2026-01-15 20:50:17,171 - INFO - -------------------------------------------------
+2026-01-15 20:50:17,171 - INFO - Transcribing 30/350: ./dataset/American_Male_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:50:18,339 - INFO - Finished transcribing in: 1.167806 seconds.
+
+2026-01-15 20:50:18,339 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:18,343 - INFO - Finished normalizing output text in: 0.004044 seconds.
+
+2026-01-15 20:50:18,354 - INFO - -------------------------------------------------
+2026-01-15 20:50:18,354 - INFO - Transcribing 31/350: ./dataset/American_Male_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:50:19,545 - INFO - Finished transcribing in: 1.191357 seconds.
+
+2026-01-15 20:50:19,545 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:19,545 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:20,214 - INFO - Finished normalizing output text in: 0.669104 seconds.
+
+2026-01-15 20:50:20,220 - INFO - -------------------------------------------------
+2026-01-15 20:50:20,220 - INFO - Transcribing 32/350: ./dataset/American_Male_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:50:21,404 - INFO - Finished transcribing in: 1.184389 seconds.
+
+2026-01-15 20:50:21,404 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:21,405 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:22,101 - INFO - Finished normalizing output text in: 0.696884 seconds.
+
+2026-01-15 20:50:22,107 - INFO - -------------------------------------------------
+2026-01-15 20:50:22,107 - INFO - Transcribing 33/350: ./dataset/American_Male_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:50:23,298 - INFO - Finished transcribing in: 1.190614 seconds.
+
+2026-01-15 20:50:23,298 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:23,298 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:23,902 - INFO - Finished normalizing output text in: 0.604253 seconds.
+
+2026-01-15 20:50:23,908 - INFO - -------------------------------------------------
+2026-01-15 20:50:23,908 - INFO - Transcribing 34/350: ./dataset/American_Male_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:50:25,108 - INFO - Finished transcribing in: 1.200215 seconds.
+
+2026-01-15 20:50:25,108 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:25,109 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:25,783 - INFO - Finished normalizing output text in: 0.674491 seconds.
+
+2026-01-15 20:50:25,789 - INFO - -------------------------------------------------
+2026-01-15 20:50:25,789 - INFO - Transcribing 35/350: ./dataset/American_Male_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:50:26,983 - INFO - Finished transcribing in: 1.194147 seconds.
+
+2026-01-15 20:50:26,983 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:26,983 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:27,653 - INFO - Finished normalizing output text in: 0.669829 seconds.
+
+2026-01-15 20:50:27,659 - INFO - -------------------------------------------------
+2026-01-15 20:50:27,659 - INFO - Transcribing 36/350: ./dataset/American_Male_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:50:28,860 - INFO - Finished transcribing in: 1.200796 seconds.
+
+2026-01-15 20:50:28,860 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:28,860 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:29,532 - INFO - Finished normalizing output text in: 0.672649 seconds.
+
+2026-01-15 20:50:29,538 - INFO - -------------------------------------------------
+2026-01-15 20:50:29,541 - INFO - Transcribing 37/350: ./dataset/American_Male_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:50:30,735 - INFO - Finished transcribing in: 1.194381 seconds.
+
+2026-01-15 20:50:30,735 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:30,735 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:31,362 - INFO - Finished normalizing output text in: 0.627090 seconds.
+
+2026-01-15 20:50:31,368 - INFO - -------------------------------------------------
+2026-01-15 20:50:31,368 - INFO - Transcribing 38/350: ./dataset/American_Male_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:50:32,542 - INFO - Finished transcribing in: 1.174123 seconds.
+
+2026-01-15 20:50:32,542 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:32,549 - INFO - Finished normalizing output text in: 0.006266 seconds.
+
+2026-01-15 20:50:32,554 - INFO - -------------------------------------------------
+2026-01-15 20:50:32,554 - INFO - Transcribing 39/350: ./dataset/American_Male_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:50:33,768 - INFO - Finished transcribing in: 1.214031 seconds.
+
+2026-01-15 20:50:33,768 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:34,186 - INFO - Finished normalizing output text in: 0.417801 seconds.
+
+2026-01-15 20:50:34,192 - INFO - -------------------------------------------------
+2026-01-15 20:50:34,192 - INFO - Transcribing 40/350: ./dataset/American_Male_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:50:35,411 - INFO - Finished transcribing in: 1.218864 seconds.
+
+2026-01-15 20:50:35,411 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:35,491 - INFO - Finished normalizing output text in: 0.079980 seconds.
+
+2026-01-15 20:50:35,496 - INFO - -------------------------------------------------
+2026-01-15 20:50:35,496 - INFO - Transcribing 41/350: ./dataset/American_Male_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:50:36,714 - INFO - Finished transcribing in: 1.217762 seconds.
+
+2026-01-15 20:50:36,714 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:36,714 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:37,383 - INFO - Finished normalizing output text in: 0.668309 seconds.
+
+2026-01-15 20:50:37,388 - INFO - -------------------------------------------------
+2026-01-15 20:50:37,388 - INFO - Transcribing 42/350: ./dataset/American_Male_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:50:38,582 - INFO - Finished transcribing in: 1.194077 seconds.
+
+2026-01-15 20:50:38,582 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:38,583 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:39,242 - INFO - Finished normalizing output text in: 0.659291 seconds.
+
+2026-01-15 20:50:39,248 - INFO - -------------------------------------------------
+2026-01-15 20:50:39,248 - INFO - Transcribing 43/350: ./dataset/American_Male_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:50:40,430 - INFO - Finished transcribing in: 1.182715 seconds.
+
+2026-01-15 20:50:40,431 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:40,531 - INFO - Finished normalizing output text in: 0.100350 seconds.
+
+2026-01-15 20:50:40,536 - INFO - -------------------------------------------------
+2026-01-15 20:50:40,537 - INFO - Transcribing 44/350: ./dataset/American_Male_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:50:41,751 - INFO - Finished transcribing in: 1.214208 seconds.
+
+2026-01-15 20:50:41,751 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:41,751 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:42,355 - INFO - Finished normalizing output text in: 0.604004 seconds.
+
+2026-01-15 20:50:42,361 - INFO - -------------------------------------------------
+2026-01-15 20:50:42,361 - INFO - Transcribing 45/350: ./dataset/American_Male_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:50:43,549 - INFO - Finished transcribing in: 1.188804 seconds.
+
+2026-01-15 20:50:43,550 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:43,907 - INFO - Finished normalizing output text in: 0.357410 seconds.
+
+2026-01-15 20:50:43,913 - INFO - -------------------------------------------------
+2026-01-15 20:50:43,913 - INFO - Transcribing 46/350: ./dataset/American_Male_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:50:45,111 - INFO - Finished transcribing in: 1.198344 seconds.
+
+2026-01-15 20:50:45,111 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:45,111 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:45,785 - INFO - Finished normalizing output text in: 0.674190 seconds.
+
+2026-01-15 20:50:45,791 - INFO - -------------------------------------------------
+2026-01-15 20:50:45,791 - INFO - Transcribing 47/350: ./dataset/American_Male_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:50:46,992 - INFO - Finished transcribing in: 1.200921 seconds.
+
+2026-01-15 20:50:46,992 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:46,992 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:47,669 - INFO - Finished normalizing output text in: 0.676426 seconds.
+
+2026-01-15 20:50:47,674 - INFO - -------------------------------------------------
+2026-01-15 20:50:47,674 - INFO - Transcribing 48/350: ./dataset/American_Male_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:50:48,863 - INFO - Finished transcribing in: 1.189234 seconds.
+
+2026-01-15 20:50:48,864 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:49,228 - INFO - Finished normalizing output text in: 0.364647 seconds.
+
+2026-01-15 20:50:49,234 - INFO - -------------------------------------------------
+2026-01-15 20:50:49,237 - INFO - Transcribing 49/350: ./dataset/American_Male_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:50:50,424 - INFO - Finished transcribing in: 1.187653 seconds.
+
+2026-01-15 20:50:50,425 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:50,425 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:51,107 - INFO - Finished normalizing output text in: 0.682820 seconds.
+
+2026-01-15 20:50:51,113 - INFO - -------------------------------------------------
+2026-01-15 20:50:51,113 - INFO - Transcribing 50/350: ./dataset/American_Male_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:50:52,308 - INFO - Finished transcribing in: 1.195153 seconds.
+
+2026-01-15 20:50:52,308 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:52,308 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:52,879 - INFO - Finished normalizing output text in: 0.570433 seconds.
+
+2026-01-15 20:50:52,885 - INFO - -------------------------------------------------
+2026-01-15 20:50:52,885 - INFO - Transcribing 51/350: ./dataset/Australian_Female_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:50:54,543 - INFO - Finished transcribing in: 1.658018 seconds.
+
+2026-01-15 20:50:54,543 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:54,543 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:50:55,067 - INFO - Finished normalizing output text in: 0.524163 seconds.
+
+2026-01-15 20:50:55,073 - INFO - -------------------------------------------------
+2026-01-15 20:50:55,073 - INFO - Transcribing 52/350: ./dataset/Australian_Female_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:50:56,721 - INFO - Finished transcribing in: 1.648463 seconds.
+
+2026-01-15 20:50:56,722 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:57,083 - INFO - Finished normalizing output text in: 0.361411 seconds.
+
+2026-01-15 20:50:57,089 - INFO - -------------------------------------------------
+2026-01-15 20:50:57,089 - INFO - Transcribing 53/350: ./dataset/Australian_Female_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:50:58,763 - INFO - Finished transcribing in: 1.674420 seconds.
+
+2026-01-15 20:50:58,763 - INFO - Normalizing output transcribed text...
+2026-01-15 20:50:58,767 - INFO - Finished normalizing output text in: 0.003479 seconds.
+
+2026-01-15 20:50:58,772 - INFO - -------------------------------------------------
+2026-01-15 20:50:58,772 - INFO - Transcribing 54/350: ./dataset/Australian_Female_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:51:00,503 - INFO - Finished transcribing in: 1.730398 seconds.
+
+2026-01-15 20:51:00,503 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:00,603 - INFO - Finished normalizing output text in: 0.099773 seconds.
+
+2026-01-15 20:51:00,608 - INFO - -------------------------------------------------
+2026-01-15 20:51:00,612 - INFO - Transcribing 55/350: ./dataset/Australian_Female_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:51:02,273 - INFO - Finished transcribing in: 1.661047 seconds.
+
+2026-01-15 20:51:02,273 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:02,276 - INFO - Finished normalizing output text in: 0.002428 seconds.
+
+2026-01-15 20:51:02,282 - INFO - -------------------------------------------------
+2026-01-15 20:51:02,282 - INFO - Transcribing 56/350: ./dataset/Australian_Female_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:51:04,010 - INFO - Finished transcribing in: 1.727852 seconds.
+
+2026-01-15 20:51:04,010 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:04,010 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:04,598 - INFO - Finished normalizing output text in: 0.588806 seconds.
+
+2026-01-15 20:51:04,604 - INFO - -------------------------------------------------
+2026-01-15 20:51:04,604 - INFO - Transcribing 57/350: ./dataset/Australian_Female_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:51:06,267 - INFO - Finished transcribing in: 1.663122 seconds.
+
+2026-01-15 20:51:06,267 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:06,268 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:06,892 - INFO - Finished normalizing output text in: 0.624708 seconds.
+
+2026-01-15 20:51:06,898 - INFO - -------------------------------------------------
+2026-01-15 20:51:06,898 - INFO - Transcribing 58/350: ./dataset/Australian_Female_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:51:08,542 - INFO - Finished transcribing in: 1.643804 seconds.
+
+2026-01-15 20:51:08,542 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:08,542 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:09,068 - INFO - Finished normalizing output text in: 0.525514 seconds.
+
+2026-01-15 20:51:09,073 - INFO - -------------------------------------------------
+2026-01-15 20:51:09,073 - INFO - Transcribing 59/350: ./dataset/Australian_Female_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:51:10,742 - INFO - Finished transcribing in: 1.668622 seconds.
+
+2026-01-15 20:51:10,742 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:10,742 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:11,345 - INFO - Finished normalizing output text in: 0.602824 seconds.
+
+2026-01-15 20:51:11,351 - INFO - -------------------------------------------------
+2026-01-15 20:51:11,353 - INFO - Transcribing 60/350: ./dataset/Australian_Female_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:51:13,012 - INFO - Finished transcribing in: 1.658844 seconds.
+
+2026-01-15 20:51:13,012 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:13,012 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:13,646 - INFO - Finished normalizing output text in: 0.634135 seconds.
+
+2026-01-15 20:51:13,652 - INFO - -------------------------------------------------
+2026-01-15 20:51:13,652 - INFO - Transcribing 61/350: ./dataset/Australian_Female_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:51:15,311 - INFO - Finished transcribing in: 1.658682 seconds.
+
+2026-01-15 20:51:15,311 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:15,311 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:15,887 - INFO - Finished normalizing output text in: 0.575885 seconds.
+
+2026-01-15 20:51:15,893 - INFO - -------------------------------------------------
+2026-01-15 20:51:15,893 - INFO - Transcribing 62/350: ./dataset/Australian_Female_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:51:17,538 - INFO - Finished transcribing in: 1.645450 seconds.
+
+2026-01-15 20:51:17,539 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:17,539 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:18,054 - INFO - Finished normalizing output text in: 0.515049 seconds.
+
+2026-01-15 20:51:18,059 - INFO - -------------------------------------------------
+2026-01-15 20:51:18,059 - INFO - Transcribing 63/350: ./dataset/Australian_Female_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:51:19,681 - INFO - Finished transcribing in: 1.621434 seconds.
+
+2026-01-15 20:51:19,681 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:19,684 - INFO - Finished normalizing output text in: 0.002894 seconds.
+
+2026-01-15 20:51:19,690 - INFO - -------------------------------------------------
+2026-01-15 20:51:19,690 - INFO - Transcribing 64/350: ./dataset/Australian_Female_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:51:21,406 - INFO - Finished transcribing in: 1.716403 seconds.
+
+2026-01-15 20:51:21,406 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:21,745 - INFO - Finished normalizing output text in: 0.338625 seconds.
+
+2026-01-15 20:51:21,751 - INFO - -------------------------------------------------
+2026-01-15 20:51:21,753 - INFO - Transcribing 65/350: ./dataset/Australian_Female_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:51:23,425 - INFO - Finished transcribing in: 1.671788 seconds.
+
+2026-01-15 20:51:23,425 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:23,458 - INFO - Finished normalizing output text in: 0.033061 seconds.
+
+2026-01-15 20:51:23,464 - INFO - -------------------------------------------------
+2026-01-15 20:51:23,464 - INFO - Transcribing 66/350: ./dataset/Australian_Female_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:51:25,182 - INFO - Finished transcribing in: 1.718089 seconds.
+
+2026-01-15 20:51:25,182 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:25,183 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:25,801 - INFO - Finished normalizing output text in: 0.618283 seconds.
+
+2026-01-15 20:51:25,807 - INFO - -------------------------------------------------
+2026-01-15 20:51:25,807 - INFO - Transcribing 67/350: ./dataset/Australian_Female_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:51:27,468 - INFO - Finished transcribing in: 1.661375 seconds.
+
+2026-01-15 20:51:27,468 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:27,469 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:28,076 - INFO - Finished normalizing output text in: 0.607394 seconds.
+
+2026-01-15 20:51:28,082 - INFO - -------------------------------------------------
+2026-01-15 20:51:28,082 - INFO - Transcribing 68/350: ./dataset/Australian_Female_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:51:29,722 - INFO - Finished transcribing in: 1.639787 seconds.
+
+2026-01-15 20:51:29,722 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:29,752 - INFO - Finished normalizing output text in: 0.030290 seconds.
+
+2026-01-15 20:51:29,758 - INFO - -------------------------------------------------
+2026-01-15 20:51:29,758 - INFO - Transcribing 69/350: ./dataset/Australian_Female_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:51:31,473 - INFO - Finished transcribing in: 1.714511 seconds.
+
+2026-01-15 20:51:31,473 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:31,473 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:32,019 - INFO - Finished normalizing output text in: 0.546589 seconds.
+
+2026-01-15 20:51:32,025 - INFO - -------------------------------------------------
+2026-01-15 20:51:32,025 - INFO - Transcribing 70/350: ./dataset/Australian_Female_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:51:33,694 - INFO - Finished transcribing in: 1.668783 seconds.
+
+2026-01-15 20:51:33,694 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:33,983 - INFO - Finished normalizing output text in: 0.288729 seconds.
+
+2026-01-15 20:51:33,989 - INFO - -------------------------------------------------
+2026-01-15 20:51:33,989 - INFO - Transcribing 71/350: ./dataset/Australian_Female_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:51:35,669 - INFO - Finished transcribing in: 1.680514 seconds.
+
+2026-01-15 20:51:35,669 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:35,669 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:36,268 - INFO - Finished normalizing output text in: 0.598540 seconds.
+
+2026-01-15 20:51:36,274 - INFO - -------------------------------------------------
+2026-01-15 20:51:36,274 - INFO - Transcribing 72/350: ./dataset/Australian_Female_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:51:37,921 - INFO - Finished transcribing in: 1.647264 seconds.
+
+2026-01-15 20:51:37,921 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:37,921 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:38,522 - INFO - Finished normalizing output text in: 0.601109 seconds.
+
+2026-01-15 20:51:38,528 - INFO - -------------------------------------------------
+2026-01-15 20:51:38,528 - INFO - Transcribing 73/350: ./dataset/Australian_Female_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:51:40,182 - INFO - Finished transcribing in: 1.653974 seconds.
+
+2026-01-15 20:51:40,182 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:40,539 - INFO - Finished normalizing output text in: 0.356421 seconds.
+
+2026-01-15 20:51:40,545 - INFO - -------------------------------------------------
+2026-01-15 20:51:40,545 - INFO - Transcribing 74/350: ./dataset/Australian_Female_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:51:42,228 - INFO - Finished transcribing in: 1.682975 seconds.
+
+2026-01-15 20:51:42,228 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:42,228 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:42,825 - INFO - Finished normalizing output text in: 0.597123 seconds.
+
+2026-01-15 20:51:42,831 - INFO - -------------------------------------------------
+2026-01-15 20:51:42,831 - INFO - Transcribing 75/350: ./dataset/Australian_Female_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:51:44,478 - INFO - Finished transcribing in: 1.646791 seconds.
+
+2026-01-15 20:51:44,478 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:44,478 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:45,005 - INFO - Finished normalizing output text in: 0.527457 seconds.
+
+2026-01-15 20:51:45,011 - INFO - -------------------------------------------------
+2026-01-15 20:51:45,011 - INFO - Transcribing 76/350: ./dataset/Australian_Male_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:51:46,408 - INFO - Finished transcribing in: 1.396476 seconds.
+
+2026-01-15 20:51:46,408 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:46,408 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:46,925 - INFO - Finished normalizing output text in: 0.516619 seconds.
+
+2026-01-15 20:51:46,930 - INFO - -------------------------------------------------
+2026-01-15 20:51:46,930 - INFO - Transcribing 77/350: ./dataset/Australian_Male_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:51:48,300 - INFO - Finished transcribing in: 1.370057 seconds.
+
+2026-01-15 20:51:48,301 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:48,625 - INFO - Finished normalizing output text in: 0.324008 seconds.
+
+2026-01-15 20:51:48,630 - INFO - -------------------------------------------------
+2026-01-15 20:51:48,630 - INFO - Transcribing 78/350: ./dataset/Australian_Male_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:51:50,021 - INFO - Finished transcribing in: 1.391099 seconds.
+
+2026-01-15 20:51:50,021 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:50,025 - INFO - Finished normalizing output text in: 0.003763 seconds.
+
+2026-01-15 20:51:50,031 - INFO - -------------------------------------------------
+2026-01-15 20:51:50,031 - INFO - Transcribing 79/350: ./dataset/Australian_Male_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:51:51,437 - INFO - Finished transcribing in: 1.406262 seconds.
+
+2026-01-15 20:51:51,437 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:51,549 - INFO - Finished normalizing output text in: 0.111447 seconds.
+
+2026-01-15 20:51:51,554 - INFO - -------------------------------------------------
+2026-01-15 20:51:51,554 - INFO - Transcribing 80/350: ./dataset/Australian_Male_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:51:52,953 - INFO - Finished transcribing in: 1.398268 seconds.
+
+2026-01-15 20:51:52,953 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:52,956 - INFO - Finished normalizing output text in: 0.003423 seconds.
+
+2026-01-15 20:51:52,962 - INFO - -------------------------------------------------
+2026-01-15 20:51:52,962 - INFO - Transcribing 81/350: ./dataset/Australian_Male_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:51:54,372 - INFO - Finished transcribing in: 1.410602 seconds.
+
+2026-01-15 20:51:54,372 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:54,373 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:54,991 - INFO - Finished normalizing output text in: 0.618733 seconds.
+
+2026-01-15 20:51:54,997 - INFO - -------------------------------------------------
+2026-01-15 20:51:54,997 - INFO - Transcribing 82/350: ./dataset/Australian_Male_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:51:56,388 - INFO - Finished transcribing in: 1.390735 seconds.
+
+2026-01-15 20:51:56,388 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:56,388 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:56,992 - INFO - Finished normalizing output text in: 0.603833 seconds.
+
+2026-01-15 20:51:56,998 - INFO - -------------------------------------------------
+2026-01-15 20:51:56,998 - INFO - Transcribing 83/350: ./dataset/Australian_Male_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:51:58,392 - INFO - Finished transcribing in: 1.393730 seconds.
+
+2026-01-15 20:51:58,392 - INFO - Normalizing output transcribed text...
+2026-01-15 20:51:58,392 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:51:58,921 - INFO - Finished normalizing output text in: 0.529651 seconds.
+
+2026-01-15 20:51:58,927 - INFO - -------------------------------------------------
+2026-01-15 20:51:58,927 - INFO - Transcribing 84/350: ./dataset/Australian_Male_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:52:00,314 - INFO - Finished transcribing in: 1.387076 seconds.
+
+2026-01-15 20:52:00,314 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:00,315 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:00,919 - INFO - Finished normalizing output text in: 0.604640 seconds.
+
+2026-01-15 20:52:00,925 - INFO - -------------------------------------------------
+2026-01-15 20:52:00,925 - INFO - Transcribing 85/350: ./dataset/Australian_Male_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:52:02,312 - INFO - Finished transcribing in: 1.386785 seconds.
+
+2026-01-15 20:52:02,312 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:02,312 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:02,960 - INFO - Finished normalizing output text in: 0.648435 seconds.
+
+2026-01-15 20:52:02,966 - INFO - -------------------------------------------------
+2026-01-15 20:52:02,966 - INFO - Transcribing 86/350: ./dataset/Australian_Male_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:52:04,353 - INFO - Finished transcribing in: 1.386662 seconds.
+
+2026-01-15 20:52:04,353 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:04,353 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:04,955 - INFO - Finished normalizing output text in: 0.601715 seconds.
+
+2026-01-15 20:52:04,961 - INFO - -------------------------------------------------
+2026-01-15 20:52:04,961 - INFO - Transcribing 87/350: ./dataset/Australian_Male_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:52:06,351 - INFO - Finished transcribing in: 1.389957 seconds.
+
+2026-01-15 20:52:06,351 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:06,351 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:06,910 - INFO - Finished normalizing output text in: 0.558767 seconds.
+
+2026-01-15 20:52:06,915 - INFO - -------------------------------------------------
+2026-01-15 20:52:06,915 - INFO - Transcribing 88/350: ./dataset/Australian_Male_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:52:08,294 - INFO - Finished transcribing in: 1.378080 seconds.
+
+2026-01-15 20:52:08,294 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:08,298 - INFO - Finished normalizing output text in: 0.004117 seconds.
+
+2026-01-15 20:52:08,303 - INFO - -------------------------------------------------
+2026-01-15 20:52:08,303 - INFO - Transcribing 89/350: ./dataset/Australian_Male_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:52:09,697 - INFO - Finished transcribing in: 1.393686 seconds.
+
+2026-01-15 20:52:09,697 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:10,046 - INFO - Finished normalizing output text in: 0.348692 seconds.
+
+2026-01-15 20:52:10,052 - INFO - -------------------------------------------------
+2026-01-15 20:52:10,052 - INFO - Transcribing 90/350: ./dataset/Australian_Male_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:52:11,446 - INFO - Finished transcribing in: 1.394624 seconds.
+
+2026-01-15 20:52:11,447 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:11,526 - INFO - Finished normalizing output text in: 0.079168 seconds.
+
+2026-01-15 20:52:11,531 - INFO - -------------------------------------------------
+2026-01-15 20:52:11,531 - INFO - Transcribing 91/350: ./dataset/Australian_Male_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:52:12,928 - INFO - Finished transcribing in: 1.396099 seconds.
+
+2026-01-15 20:52:12,928 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:12,928 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:13,552 - INFO - Finished normalizing output text in: 0.624153 seconds.
+
+2026-01-15 20:52:13,558 - INFO - -------------------------------------------------
+2026-01-15 20:52:13,558 - INFO - Transcribing 92/350: ./dataset/Australian_Male_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:52:14,942 - INFO - Finished transcribing in: 1.384005 seconds.
+
+2026-01-15 20:52:14,942 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:14,942 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:15,563 - INFO - Finished normalizing output text in: 0.621426 seconds.
+
+2026-01-15 20:52:15,569 - INFO - -------------------------------------------------
+2026-01-15 20:52:15,569 - INFO - Transcribing 93/350: ./dataset/Australian_Male_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:52:16,967 - INFO - Finished transcribing in: 1.398309 seconds.
+
+2026-01-15 20:52:16,967 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:17,052 - INFO - Finished normalizing output text in: 0.084445 seconds.
+
+2026-01-15 20:52:17,058 - INFO - -------------------------------------------------
+2026-01-15 20:52:17,058 - INFO - Transcribing 94/350: ./dataset/Australian_Male_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:52:18,458 - INFO - Finished transcribing in: 1.400352 seconds.
+
+2026-01-15 20:52:18,458 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:18,458 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:19,011 - INFO - Finished normalizing output text in: 0.552992 seconds.
+
+2026-01-15 20:52:19,017 - INFO - -------------------------------------------------
+2026-01-15 20:52:19,017 - INFO - Transcribing 95/350: ./dataset/Australian_Male_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:52:20,419 - INFO - Finished transcribing in: 1.402407 seconds.
+
+2026-01-15 20:52:20,419 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:20,752 - INFO - Finished normalizing output text in: 0.332398 seconds.
+
+2026-01-15 20:52:20,758 - INFO - -------------------------------------------------
+2026-01-15 20:52:20,758 - INFO - Transcribing 96/350: ./dataset/Australian_Male_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:52:22,163 - INFO - Finished transcribing in: 1.405715 seconds.
+
+2026-01-15 20:52:22,164 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:22,164 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:22,780 - INFO - Finished normalizing output text in: 0.616010 seconds.
+
+2026-01-15 20:52:22,785 - INFO - -------------------------------------------------
+2026-01-15 20:52:22,785 - INFO - Transcribing 97/350: ./dataset/Australian_Male_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:52:24,181 - INFO - Finished transcribing in: 1.395909 seconds.
+
+2026-01-15 20:52:24,181 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:24,182 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:24,807 - INFO - Finished normalizing output text in: 0.625325 seconds.
+
+2026-01-15 20:52:24,813 - INFO - -------------------------------------------------
+2026-01-15 20:52:24,813 - INFO - Transcribing 98/350: ./dataset/Australian_Male_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:52:26,194 - INFO - Finished transcribing in: 1.380869 seconds.
+
+2026-01-15 20:52:26,194 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:26,569 - INFO - Finished normalizing output text in: 0.374821 seconds.
+
+2026-01-15 20:52:26,574 - INFO - -------------------------------------------------
+2026-01-15 20:52:26,574 - INFO - Transcribing 99/350: ./dataset/Australian_Male_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:52:27,960 - INFO - Finished transcribing in: 1.385377 seconds.
+
+2026-01-15 20:52:27,960 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:27,960 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:28,582 - INFO - Finished normalizing output text in: 0.622094 seconds.
+
+2026-01-15 20:52:28,588 - INFO - -------------------------------------------------
+2026-01-15 20:52:28,588 - INFO - Transcribing 100/350: ./dataset/Australian_Male_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:52:29,972 - INFO - Finished transcribing in: 1.383903 seconds.
+
+2026-01-15 20:52:29,972 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:29,972 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:30,525 - INFO - Finished normalizing output text in: 0.553297 seconds.
+
+2026-01-15 20:52:30,531 - INFO - -------------------------------------------------
+2026-01-15 20:52:30,531 - INFO - Transcribing 101/350: ./dataset/British_Female_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:52:31,642 - INFO - Finished transcribing in: 1.110473 seconds.
+
+2026-01-15 20:52:31,642 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:31,642 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:32,251 - INFO - Finished normalizing output text in: 0.609379 seconds.
+
+2026-01-15 20:52:32,255 - INFO - -------------------------------------------------
+2026-01-15 20:52:32,255 - INFO - Transcribing 102/350: ./dataset/British_Female_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:52:33,342 - INFO - Finished transcribing in: 1.087602 seconds.
+
+2026-01-15 20:52:33,342 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:33,747 - INFO - Finished normalizing output text in: 0.404833 seconds.
+
+2026-01-15 20:52:33,750 - INFO - -------------------------------------------------
+2026-01-15 20:52:33,751 - INFO - Transcribing 103/350: ./dataset/British_Female_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:52:34,854 - INFO - Finished transcribing in: 1.103549 seconds.
+
+2026-01-15 20:52:34,854 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:34,861 - INFO - Finished normalizing output text in: 0.006926 seconds.
+
+2026-01-15 20:52:34,864 - INFO - -------------------------------------------------
+2026-01-15 20:52:34,864 - INFO - Transcribing 104/350: ./dataset/British_Female_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:52:35,982 - INFO - Finished transcribing in: 1.117198 seconds.
+
+2026-01-15 20:52:35,982 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:36,214 - INFO - Finished normalizing output text in: 0.232584 seconds.
+
+2026-01-15 20:52:36,218 - INFO - -------------------------------------------------
+2026-01-15 20:52:36,218 - INFO - Transcribing 105/350: ./dataset/British_Female_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:52:37,310 - INFO - Finished transcribing in: 1.092049 seconds.
+
+2026-01-15 20:52:37,310 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:37,314 - INFO - Finished normalizing output text in: 0.004147 seconds.
+
+2026-01-15 20:52:37,317 - INFO - -------------------------------------------------
+2026-01-15 20:52:37,317 - INFO - Transcribing 106/350: ./dataset/British_Female_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:52:38,416 - INFO - Finished transcribing in: 1.098462 seconds.
+
+2026-01-15 20:52:38,416 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:38,416 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:39,072 - INFO - Finished normalizing output text in: 0.656317 seconds.
+
+2026-01-15 20:52:39,076 - INFO - -------------------------------------------------
+2026-01-15 20:52:39,076 - INFO - Transcribing 107/350: ./dataset/British_Female_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:52:40,162 - INFO - Finished transcribing in: 1.085599 seconds.
+
+2026-01-15 20:52:40,162 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:40,162 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:40,844 - INFO - Finished normalizing output text in: 0.682506 seconds.
+
+2026-01-15 20:52:40,848 - INFO - -------------------------------------------------
+2026-01-15 20:52:40,848 - INFO - Transcribing 108/350: ./dataset/British_Female_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:52:41,940 - INFO - Finished transcribing in: 1.091991 seconds.
+
+2026-01-15 20:52:41,940 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:41,940 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:42,545 - INFO - Finished normalizing output text in: 0.605425 seconds.
+
+2026-01-15 20:52:42,549 - INFO - -------------------------------------------------
+2026-01-15 20:52:42,549 - INFO - Transcribing 109/350: ./dataset/British_Female_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:52:43,633 - INFO - Finished transcribing in: 1.083815 seconds.
+
+2026-01-15 20:52:43,633 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:43,633 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:44,321 - INFO - Finished normalizing output text in: 0.688574 seconds.
+
+2026-01-15 20:52:44,325 - INFO - -------------------------------------------------
+2026-01-15 20:52:44,325 - INFO - Transcribing 110/350: ./dataset/British_Female_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:52:45,428 - INFO - Finished transcribing in: 1.103101 seconds.
+
+2026-01-15 20:52:45,428 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:45,428 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:46,074 - INFO - Finished normalizing output text in: 0.645676 seconds.
+
+2026-01-15 20:52:46,077 - INFO - -------------------------------------------------
+2026-01-15 20:52:46,077 - INFO - Transcribing 111/350: ./dataset/British_Female_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:52:47,169 - INFO - Finished transcribing in: 1.091598 seconds.
+
+2026-01-15 20:52:47,169 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:47,169 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:47,817 - INFO - Finished normalizing output text in: 0.647993 seconds.
+
+2026-01-15 20:52:47,821 - INFO - -------------------------------------------------
+2026-01-15 20:52:47,821 - INFO - Transcribing 112/350: ./dataset/British_Female_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:52:48,924 - INFO - Finished transcribing in: 1.102928 seconds.
+
+2026-01-15 20:52:48,924 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:48,924 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:49,520 - INFO - Finished normalizing output text in: 0.595599 seconds.
+
+2026-01-15 20:52:49,523 - INFO - -------------------------------------------------
+2026-01-15 20:52:49,523 - INFO - Transcribing 113/350: ./dataset/British_Female_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:52:50,600 - INFO - Finished transcribing in: 1.076614 seconds.
+
+2026-01-15 20:52:50,600 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:50,603 - INFO - Finished normalizing output text in: 0.003540 seconds.
+
+2026-01-15 20:52:50,607 - INFO - -------------------------------------------------
+2026-01-15 20:52:50,607 - INFO - Transcribing 114/350: ./dataset/British_Female_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:52:51,707 - INFO - Finished transcribing in: 1.100509 seconds.
+
+2026-01-15 20:52:51,707 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:52,108 - INFO - Finished normalizing output text in: 0.400859 seconds.
+
+2026-01-15 20:52:52,111 - INFO - -------------------------------------------------
+2026-01-15 20:52:52,112 - INFO - Transcribing 115/350: ./dataset/British_Female_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:52:53,195 - INFO - Finished transcribing in: 1.083104 seconds.
+
+2026-01-15 20:52:53,195 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:53,264 - INFO - Finished normalizing output text in: 0.069167 seconds.
+
+2026-01-15 20:52:53,267 - INFO - -------------------------------------------------
+2026-01-15 20:52:53,267 - INFO - Transcribing 116/350: ./dataset/British_Female_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:52:54,366 - INFO - Finished transcribing in: 1.098995 seconds.
+
+2026-01-15 20:52:54,367 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:54,367 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:55,031 - INFO - Finished normalizing output text in: 0.664901 seconds.
+
+2026-01-15 20:52:55,035 - INFO - -------------------------------------------------
+2026-01-15 20:52:55,035 - INFO - Transcribing 117/350: ./dataset/British_Female_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:52:56,128 - INFO - Finished transcribing in: 1.092605 seconds.
+
+2026-01-15 20:52:56,128 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:56,128 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:56,764 - INFO - Finished normalizing output text in: 0.636357 seconds.
+
+2026-01-15 20:52:56,768 - INFO - -------------------------------------------------
+2026-01-15 20:52:56,768 - INFO - Transcribing 118/350: ./dataset/British_Female_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:52:57,842 - INFO - Finished transcribing in: 1.074332 seconds.
+
+2026-01-15 20:52:57,842 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:57,947 - INFO - Finished normalizing output text in: 0.104593 seconds.
+
+2026-01-15 20:52:57,950 - INFO - -------------------------------------------------
+2026-01-15 20:52:57,950 - INFO - Transcribing 119/350: ./dataset/British_Female_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:52:59,041 - INFO - Finished transcribing in: 1.091247 seconds.
+
+2026-01-15 20:52:59,042 - INFO - Normalizing output transcribed text...
+2026-01-15 20:52:59,042 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:52:59,674 - INFO - Finished normalizing output text in: 0.632830 seconds.
+
+2026-01-15 20:52:59,678 - INFO - -------------------------------------------------
+2026-01-15 20:52:59,678 - INFO - Transcribing 120/350: ./dataset/British_Female_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:53:00,771 - INFO - Finished transcribing in: 1.093202 seconds.
+
+2026-01-15 20:53:00,771 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:01,142 - INFO - Finished normalizing output text in: 0.370188 seconds.
+
+2026-01-15 20:53:01,145 - INFO - -------------------------------------------------
+2026-01-15 20:53:01,145 - INFO - Transcribing 121/350: ./dataset/British_Female_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:53:02,232 - INFO - Finished transcribing in: 1.087088 seconds.
+
+2026-01-15 20:53:02,232 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:02,233 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:02,911 - INFO - Finished normalizing output text in: 0.678991 seconds.
+
+2026-01-15 20:53:02,915 - INFO - -------------------------------------------------
+2026-01-15 20:53:02,915 - INFO - Transcribing 122/350: ./dataset/British_Female_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:53:04,011 - INFO - Finished transcribing in: 1.095962 seconds.
+
+2026-01-15 20:53:04,011 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:04,011 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:04,678 - INFO - Finished normalizing output text in: 0.667325 seconds.
+
+2026-01-15 20:53:04,682 - INFO - -------------------------------------------------
+2026-01-15 20:53:04,682 - INFO - Transcribing 123/350: ./dataset/British_Female_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:53:05,767 - INFO - Finished transcribing in: 1.084508 seconds.
+
+2026-01-15 20:53:05,767 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:06,180 - INFO - Finished normalizing output text in: 0.413055 seconds.
+
+2026-01-15 20:53:06,183 - INFO - -------------------------------------------------
+2026-01-15 20:53:06,183 - INFO - Transcribing 124/350: ./dataset/British_Female_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:53:07,268 - INFO - Finished transcribing in: 1.084405 seconds.
+
+2026-01-15 20:53:07,268 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:07,268 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:07,930 - INFO - Finished normalizing output text in: 0.662477 seconds.
+
+2026-01-15 20:53:07,934 - INFO - -------------------------------------------------
+2026-01-15 20:53:07,934 - INFO - Transcribing 125/350: ./dataset/British_Female_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:53:09,021 - INFO - Finished transcribing in: 1.087268 seconds.
+
+2026-01-15 20:53:09,021 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:09,021 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:09,628 - INFO - Finished normalizing output text in: 0.607108 seconds.
+
+2026-01-15 20:53:09,632 - INFO - -------------------------------------------------
+2026-01-15 20:53:09,632 - INFO - Transcribing 126/350: ./dataset/British_Male_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:53:10,601 - INFO - Finished transcribing in: 0.968749 seconds.
+
+2026-01-15 20:53:10,601 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:10,601 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:11,106 - INFO - Finished normalizing output text in: 0.505234 seconds.
+
+2026-01-15 20:53:11,110 - INFO - -------------------------------------------------
+2026-01-15 20:53:11,110 - INFO - Transcribing 127/350: ./dataset/British_Male_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:53:12,081 - INFO - Finished transcribing in: 0.971177 seconds.
+
+2026-01-15 20:53:12,081 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:12,426 - INFO - Finished normalizing output text in: 0.345252 seconds.
+
+2026-01-15 20:53:12,430 - INFO - -------------------------------------------------
+2026-01-15 20:53:12,430 - INFO - Transcribing 128/350: ./dataset/British_Male_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:53:13,423 - INFO - Finished transcribing in: 0.992979 seconds.
+
+2026-01-15 20:53:13,423 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:13,430 - INFO - Finished normalizing output text in: 0.007485 seconds.
+
+2026-01-15 20:53:13,434 - INFO - -------------------------------------------------
+2026-01-15 20:53:13,434 - INFO - Transcribing 129/350: ./dataset/British_Male_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:53:14,450 - INFO - Finished transcribing in: 1.016301 seconds.
+
+2026-01-15 20:53:14,450 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:14,547 - INFO - Finished normalizing output text in: 0.096960 seconds.
+
+2026-01-15 20:53:14,550 - INFO - -------------------------------------------------
+2026-01-15 20:53:14,550 - INFO - Transcribing 130/350: ./dataset/British_Male_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:53:15,545 - INFO - Finished transcribing in: 0.994137 seconds.
+
+2026-01-15 20:53:15,545 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:15,551 - INFO - Finished normalizing output text in: 0.006287 seconds.
+
+2026-01-15 20:53:15,554 - INFO - -------------------------------------------------
+2026-01-15 20:53:15,554 - INFO - Transcribing 131/350: ./dataset/British_Male_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:53:16,572 - INFO - Finished transcribing in: 1.017407 seconds.
+
+2026-01-15 20:53:16,572 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:16,572 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:17,213 - INFO - Finished normalizing output text in: 0.640790 seconds.
+
+2026-01-15 20:53:17,216 - INFO - -------------------------------------------------
+2026-01-15 20:53:17,216 - INFO - Transcribing 132/350: ./dataset/British_Male_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:53:18,193 - INFO - Finished transcribing in: 0.976762 seconds.
+
+2026-01-15 20:53:18,193 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:18,193 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:18,902 - INFO - Finished normalizing output text in: 0.708912 seconds.
+
+2026-01-15 20:53:18,906 - INFO - -------------------------------------------------
+2026-01-15 20:53:18,906 - INFO - Transcribing 133/350: ./dataset/British_Male_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:53:19,875 - INFO - Finished transcribing in: 0.969268 seconds.
+
+2026-01-15 20:53:19,875 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:20,399 - INFO - Finished normalizing output text in: 0.524039 seconds.
+
+2026-01-15 20:53:20,403 - INFO - -------------------------------------------------
+2026-01-15 20:53:20,403 - INFO - Transcribing 134/350: ./dataset/British_Male_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:53:21,403 - INFO - Finished transcribing in: 1.000677 seconds.
+
+2026-01-15 20:53:21,403 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:21,404 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:22,067 - INFO - Finished normalizing output text in: 0.663304 seconds.
+
+2026-01-15 20:53:22,070 - INFO - -------------------------------------------------
+2026-01-15 20:53:22,070 - INFO - Transcribing 135/350: ./dataset/British_Male_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:53:23,049 - INFO - Finished transcribing in: 0.978014 seconds.
+
+2026-01-15 20:53:23,049 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:23,049 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:23,668 - INFO - Finished normalizing output text in: 0.619045 seconds.
+
+2026-01-15 20:53:23,672 - INFO - -------------------------------------------------
+2026-01-15 20:53:23,672 - INFO - Transcribing 136/350: ./dataset/British_Male_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:53:24,659 - INFO - Finished transcribing in: 0.986980 seconds.
+
+2026-01-15 20:53:24,659 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:24,659 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:25,328 - INFO - Finished normalizing output text in: 0.668371 seconds.
+
+2026-01-15 20:53:25,331 - INFO - -------------------------------------------------
+2026-01-15 20:53:25,331 - INFO - Transcribing 137/350: ./dataset/British_Male_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:53:26,303 - INFO - Finished transcribing in: 0.971689 seconds.
+
+2026-01-15 20:53:26,303 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:26,303 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:26,842 - INFO - Finished normalizing output text in: 0.539033 seconds.
+
+2026-01-15 20:53:26,846 - INFO - -------------------------------------------------
+2026-01-15 20:53:26,846 - INFO - Transcribing 138/350: ./dataset/British_Male_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:53:27,843 - INFO - Finished transcribing in: 0.997236 seconds.
+
+2026-01-15 20:53:27,843 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:27,849 - INFO - Finished normalizing output text in: 0.005919 seconds.
+
+2026-01-15 20:53:27,855 - INFO - -------------------------------------------------
+2026-01-15 20:53:27,855 - INFO - Transcribing 139/350: ./dataset/British_Male_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:53:28,867 - INFO - Finished transcribing in: 1.012118 seconds.
+
+2026-01-15 20:53:28,867 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:29,179 - INFO - Finished normalizing output text in: 0.311707 seconds.
+
+2026-01-15 20:53:29,182 - INFO - -------------------------------------------------
+2026-01-15 20:53:29,182 - INFO - Transcribing 140/350: ./dataset/British_Male_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:53:30,160 - INFO - Finished transcribing in: 0.978319 seconds.
+
+2026-01-15 20:53:30,160 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:30,200 - INFO - Finished normalizing output text in: 0.039686 seconds.
+
+2026-01-15 20:53:30,203 - INFO - -------------------------------------------------
+2026-01-15 20:53:30,203 - INFO - Transcribing 141/350: ./dataset/British_Male_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:53:31,226 - INFO - Finished transcribing in: 1.022445 seconds.
+
+2026-01-15 20:53:31,226 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:31,226 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:31,860 - INFO - Finished normalizing output text in: 0.633969 seconds.
+
+2026-01-15 20:53:31,863 - INFO - -------------------------------------------------
+2026-01-15 20:53:31,863 - INFO - Transcribing 142/350: ./dataset/British_Male_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:53:32,841 - INFO - Finished transcribing in: 0.977461 seconds.
+
+2026-01-15 20:53:32,841 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:32,841 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:33,483 - INFO - Finished normalizing output text in: 0.642311 seconds.
+
+2026-01-15 20:53:33,487 - INFO - -------------------------------------------------
+2026-01-15 20:53:33,492 - INFO - Transcribing 143/350: ./dataset/British_Male_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:53:34,457 - INFO - Finished transcribing in: 0.964518 seconds.
+
+2026-01-15 20:53:34,457 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:34,507 - INFO - Finished normalizing output text in: 0.049985 seconds.
+
+2026-01-15 20:53:34,510 - INFO - -------------------------------------------------
+2026-01-15 20:53:34,510 - INFO - Transcribing 144/350: ./dataset/British_Male_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:53:35,531 - INFO - Finished transcribing in: 1.020946 seconds.
+
+2026-01-15 20:53:35,531 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:35,531 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:36,063 - INFO - Finished normalizing output text in: 0.532127 seconds.
+
+2026-01-15 20:53:36,067 - INFO - -------------------------------------------------
+2026-01-15 20:53:36,067 - INFO - Transcribing 145/350: ./dataset/British_Male_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:53:37,039 - INFO - Finished transcribing in: 0.972665 seconds.
+
+2026-01-15 20:53:37,040 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:37,305 - INFO - Finished normalizing output text in: 0.265110 seconds.
+
+2026-01-15 20:53:37,308 - INFO - -------------------------------------------------
+2026-01-15 20:53:37,308 - INFO - Transcribing 146/350: ./dataset/British_Male_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:53:38,309 - INFO - Finished transcribing in: 1.001189 seconds.
+
+2026-01-15 20:53:38,309 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:38,309 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:38,969 - INFO - Finished normalizing output text in: 0.659963 seconds.
+
+2026-01-15 20:53:38,973 - INFO - -------------------------------------------------
+2026-01-15 20:53:38,973 - INFO - Transcribing 147/350: ./dataset/British_Male_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:53:39,951 - INFO - Finished transcribing in: 0.978119 seconds.
+
+2026-01-15 20:53:39,951 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:39,951 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:40,608 - INFO - Finished normalizing output text in: 0.657286 seconds.
+
+2026-01-15 20:53:40,612 - INFO - -------------------------------------------------
+2026-01-15 20:53:40,612 - INFO - Transcribing 148/350: ./dataset/British_Male_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:53:41,609 - INFO - Finished transcribing in: 0.996668 seconds.
+
+2026-01-15 20:53:41,609 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:41,912 - INFO - Finished normalizing output text in: 0.303635 seconds.
+
+2026-01-15 20:53:41,916 - INFO - -------------------------------------------------
+2026-01-15 20:53:41,916 - INFO - Transcribing 149/350: ./dataset/British_Male_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:53:42,917 - INFO - Finished transcribing in: 1.001580 seconds.
+
+2026-01-15 20:53:42,918 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:42,918 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:43,536 - INFO - Finished normalizing output text in: 0.618274 seconds.
+
+2026-01-15 20:53:43,539 - INFO - -------------------------------------------------
+2026-01-15 20:53:43,539 - INFO - Transcribing 150/350: ./dataset/British_Male_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:53:44,513 - INFO - Finished transcribing in: 0.973533 seconds.
+
+2026-01-15 20:53:44,513 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:44,994 - INFO - Finished normalizing output text in: 0.480467 seconds.
+
+2026-01-15 20:53:44,997 - INFO - -------------------------------------------------
+2026-01-15 20:53:44,997 - INFO - Transcribing 151/350: ./dataset/Chinese_Female_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:53:46,307 - INFO - Finished transcribing in: 1.309682 seconds.
+
+2026-01-15 20:53:46,307 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:46,718 - INFO - Finished normalizing output text in: 0.411079 seconds.
+
+2026-01-15 20:53:46,724 - INFO - -------------------------------------------------
+2026-01-15 20:53:46,724 - INFO - Transcribing 152/350: ./dataset/Chinese_Female_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:53:48,054 - INFO - Finished transcribing in: 1.330126 seconds.
+
+2026-01-15 20:53:48,054 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:48,309 - INFO - Finished normalizing output text in: 0.254661 seconds.
+
+2026-01-15 20:53:48,314 - INFO - -------------------------------------------------
+2026-01-15 20:53:48,314 - INFO - Transcribing 153/350: ./dataset/Chinese_Female_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:53:49,641 - INFO - Finished transcribing in: 1.326555 seconds.
+
+2026-01-15 20:53:49,641 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:49,647 - INFO - Finished normalizing output text in: 0.005665 seconds.
+
+2026-01-15 20:53:49,652 - INFO - -------------------------------------------------
+2026-01-15 20:53:49,652 - INFO - Transcribing 154/350: ./dataset/Chinese_Female_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:53:50,970 - INFO - Finished transcribing in: 1.317299 seconds.
+
+2026-01-15 20:53:50,970 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:50,973 - INFO - Finished normalizing output text in: 0.003209 seconds.
+
+2026-01-15 20:53:50,983 - INFO - -------------------------------------------------
+2026-01-15 20:53:50,983 - INFO - Transcribing 155/350: ./dataset/Chinese_Female_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:53:52,330 - INFO - Finished transcribing in: 1.346880 seconds.
+
+2026-01-15 20:53:52,330 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:52,335 - INFO - Finished normalizing output text in: 0.004945 seconds.
+
+2026-01-15 20:53:52,341 - INFO - -------------------------------------------------
+2026-01-15 20:53:52,341 - INFO - Transcribing 156/350: ./dataset/Chinese_Female_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:53:53,660 - INFO - Finished transcribing in: 1.318929 seconds.
+
+2026-01-15 20:53:53,660 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:53,660 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:54,303 - INFO - Finished normalizing output text in: 0.643163 seconds.
+
+2026-01-15 20:53:54,309 - INFO - -------------------------------------------------
+2026-01-15 20:53:54,309 - INFO - Transcribing 157/350: ./dataset/Chinese_Female_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:53:55,631 - INFO - Finished transcribing in: 1.321863 seconds.
+
+2026-01-15 20:53:55,631 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:55,631 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:53:56,275 - INFO - Finished normalizing output text in: 0.643989 seconds.
+
+2026-01-15 20:53:56,281 - INFO - -------------------------------------------------
+2026-01-15 20:53:56,284 - INFO - Transcribing 158/350: ./dataset/Chinese_Female_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:53:57,617 - INFO - Finished transcribing in: 1.333161 seconds.
+
+2026-01-15 20:53:57,617 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:58,034 - INFO - Finished normalizing output text in: 0.416711 seconds.
+
+2026-01-15 20:53:58,039 - INFO - -------------------------------------------------
+2026-01-15 20:53:58,039 - INFO - Transcribing 159/350: ./dataset/Chinese_Female_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:53:59,379 - INFO - Finished transcribing in: 1.339907 seconds.
+
+2026-01-15 20:53:59,379 - INFO - Normalizing output transcribed text...
+2026-01-15 20:53:59,380 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:00,059 - INFO - Finished normalizing output text in: 0.679098 seconds.
+
+2026-01-15 20:54:00,064 - INFO - -------------------------------------------------
+2026-01-15 20:54:00,064 - INFO - Transcribing 160/350: ./dataset/Chinese_Female_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:54:01,391 - INFO - Finished transcribing in: 1.326888 seconds.
+
+2026-01-15 20:54:01,391 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:01,392 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:02,013 - INFO - Finished normalizing output text in: 0.621717 seconds.
+
+2026-01-15 20:54:02,019 - INFO - -------------------------------------------------
+2026-01-15 20:54:02,019 - INFO - Transcribing 161/350: ./dataset/Chinese_Female_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:54:03,345 - INFO - Finished transcribing in: 1.325590 seconds.
+
+2026-01-15 20:54:03,345 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:03,345 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:03,944 - INFO - Finished normalizing output text in: 0.599614 seconds.
+
+2026-01-15 20:54:03,950 - INFO - -------------------------------------------------
+2026-01-15 20:54:03,950 - INFO - Transcribing 162/350: ./dataset/Chinese_Female_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:54:05,257 - INFO - Finished transcribing in: 1.306814 seconds.
+
+2026-01-15 20:54:05,257 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:05,257 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:05,693 - INFO - Finished normalizing output text in: 0.436129 seconds.
+
+2026-01-15 20:54:05,699 - INFO - -------------------------------------------------
+2026-01-15 20:54:05,699 - INFO - Transcribing 163/350: ./dataset/Chinese_Female_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:54:07,020 - INFO - Finished transcribing in: 1.320984 seconds.
+
+2026-01-15 20:54:07,020 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:07,026 - INFO - Finished normalizing output text in: 0.005676 seconds.
+
+2026-01-15 20:54:07,034 - INFO - -------------------------------------------------
+2026-01-15 20:54:07,034 - INFO - Transcribing 164/350: ./dataset/Chinese_Female_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:54:08,352 - INFO - Finished transcribing in: 1.318366 seconds.
+
+2026-01-15 20:54:08,352 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:08,628 - INFO - Finished normalizing output text in: 0.275996 seconds.
+
+2026-01-15 20:54:08,634 - INFO - -------------------------------------------------
+2026-01-15 20:54:08,634 - INFO - Transcribing 165/350: ./dataset/Chinese_Female_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:54:09,948 - INFO - Finished transcribing in: 1.313840 seconds.
+
+2026-01-15 20:54:09,948 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:09,949 - INFO - Finished normalizing output text in: 0.001504 seconds.
+
+2026-01-15 20:54:09,955 - INFO - -------------------------------------------------
+2026-01-15 20:54:09,955 - INFO - Transcribing 166/350: ./dataset/Chinese_Female_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:54:11,279 - INFO - Finished transcribing in: 1.324219 seconds.
+
+2026-01-15 20:54:11,279 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:11,279 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:11,930 - INFO - Finished normalizing output text in: 0.651117 seconds.
+
+2026-01-15 20:54:11,936 - INFO - -------------------------------------------------
+2026-01-15 20:54:11,936 - INFO - Transcribing 167/350: ./dataset/Chinese_Female_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:54:13,253 - INFO - Finished transcribing in: 1.316889 seconds.
+
+2026-01-15 20:54:13,253 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:13,253 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:13,868 - INFO - Finished normalizing output text in: 0.614590 seconds.
+
+2026-01-15 20:54:13,874 - INFO - -------------------------------------------------
+2026-01-15 20:54:13,874 - INFO - Transcribing 168/350: ./dataset/Chinese_Female_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:54:15,177 - INFO - Finished transcribing in: 1.303655 seconds.
+
+2026-01-15 20:54:15,178 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:15,180 - INFO - Finished normalizing output text in: 0.002166 seconds.
+
+2026-01-15 20:54:15,185 - INFO - -------------------------------------------------
+2026-01-15 20:54:15,185 - INFO - Transcribing 169/350: ./dataset/Chinese_Female_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:54:16,525 - INFO - Finished transcribing in: 1.339499 seconds.
+
+2026-01-15 20:54:16,525 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:16,937 - INFO - Finished normalizing output text in: 0.412491 seconds.
+
+2026-01-15 20:54:16,943 - INFO - -------------------------------------------------
+2026-01-15 20:54:16,943 - INFO - Transcribing 170/350: ./dataset/Chinese_Female_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:54:18,274 - INFO - Finished transcribing in: 1.330672 seconds.
+
+2026-01-15 20:54:18,274 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:18,445 - INFO - Finished normalizing output text in: 0.170794 seconds.
+
+2026-01-15 20:54:18,450 - INFO - -------------------------------------------------
+2026-01-15 20:54:18,450 - INFO - Transcribing 171/350: ./dataset/Chinese_Female_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:54:19,779 - INFO - Finished transcribing in: 1.328436 seconds.
+
+2026-01-15 20:54:19,779 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:19,779 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:20,420 - INFO - Finished normalizing output text in: 0.640612 seconds.
+
+2026-01-15 20:54:20,425 - INFO - -------------------------------------------------
+2026-01-15 20:54:20,425 - INFO - Transcribing 172/350: ./dataset/Chinese_Female_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:54:21,752 - INFO - Finished transcribing in: 1.326456 seconds.
+
+2026-01-15 20:54:21,752 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:21,752 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:22,389 - INFO - Finished normalizing output text in: 0.637313 seconds.
+
+2026-01-15 20:54:22,395 - INFO - -------------------------------------------------
+2026-01-15 20:54:22,395 - INFO - Transcribing 173/350: ./dataset/Chinese_Female_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:54:23,725 - INFO - Finished transcribing in: 1.329628 seconds.
+
+2026-01-15 20:54:23,725 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:23,983 - INFO - Finished normalizing output text in: 0.257685 seconds.
+
+2026-01-15 20:54:23,988 - INFO - -------------------------------------------------
+2026-01-15 20:54:23,988 - INFO - Transcribing 174/350: ./dataset/Chinese_Female_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:54:25,309 - INFO - Finished transcribing in: 1.320340 seconds.
+
+2026-01-15 20:54:25,309 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:25,309 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:25,944 - INFO - Finished normalizing output text in: 0.635567 seconds.
+
+2026-01-15 20:54:25,950 - INFO - -------------------------------------------------
+2026-01-15 20:54:25,950 - INFO - Transcribing 175/350: ./dataset/Chinese_Female_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:54:27,280 - INFO - Finished transcribing in: 1.330159 seconds.
+
+2026-01-15 20:54:27,281 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:27,281 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:27,742 - INFO - Finished normalizing output text in: 0.461356 seconds.
+
+2026-01-15 20:54:27,747 - INFO - -------------------------------------------------
+2026-01-15 20:54:27,747 - INFO - Transcribing 176/350: ./dataset/Chinese_Male_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:54:28,699 - INFO - Finished transcribing in: 0.951798 seconds.
+
+2026-01-15 20:54:28,699 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:28,700 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:29,266 - INFO - Finished normalizing output text in: 0.566609 seconds.
+
+2026-01-15 20:54:29,269 - INFO - -------------------------------------------------
+2026-01-15 20:54:29,270 - INFO - Transcribing 177/350: ./dataset/Chinese_Male_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:54:30,208 - INFO - Finished transcribing in: 0.938246 seconds.
+
+2026-01-15 20:54:30,208 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:30,577 - INFO - Finished normalizing output text in: 0.369069 seconds.
+
+2026-01-15 20:54:30,580 - INFO - -------------------------------------------------
+2026-01-15 20:54:30,580 - INFO - Transcribing 178/350: ./dataset/Chinese_Male_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:54:31,520 - INFO - Finished transcribing in: 0.939630 seconds.
+
+2026-01-15 20:54:31,520 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:31,529 - INFO - Finished normalizing output text in: 0.008490 seconds.
+
+2026-01-15 20:54:31,532 - INFO - -------------------------------------------------
+2026-01-15 20:54:31,532 - INFO - Transcribing 179/350: ./dataset/Chinese_Male_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:54:32,514 - INFO - Finished transcribing in: 0.982019 seconds.
+
+2026-01-15 20:54:32,514 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:32,639 - INFO - Finished normalizing output text in: 0.125230 seconds.
+
+2026-01-15 20:54:32,643 - INFO - -------------------------------------------------
+2026-01-15 20:54:32,643 - INFO - Transcribing 180/350: ./dataset/Chinese_Male_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:54:33,592 - INFO - Finished transcribing in: 0.949192 seconds.
+
+2026-01-15 20:54:33,592 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:33,596 - INFO - Finished normalizing output text in: 0.004130 seconds.
+
+2026-01-15 20:54:33,599 - INFO - -------------------------------------------------
+2026-01-15 20:54:33,599 - INFO - Transcribing 181/350: ./dataset/Chinese_Male_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:54:34,623 - INFO - Finished transcribing in: 1.024102 seconds.
+
+2026-01-15 20:54:34,623 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:34,624 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:35,247 - INFO - Finished normalizing output text in: 0.623188 seconds.
+
+2026-01-15 20:54:35,250 - INFO - -------------------------------------------------
+2026-01-15 20:54:35,250 - INFO - Transcribing 182/350: ./dataset/Chinese_Male_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:54:36,197 - INFO - Finished transcribing in: 0.946302 seconds.
+
+2026-01-15 20:54:36,197 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:36,197 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:36,821 - INFO - Finished normalizing output text in: 0.624366 seconds.
+
+2026-01-15 20:54:36,825 - INFO - -------------------------------------------------
+2026-01-15 20:54:36,825 - INFO - Transcribing 183/350: ./dataset/Chinese_Male_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:54:37,784 - INFO - Finished transcribing in: 0.959235 seconds.
+
+2026-01-15 20:54:37,784 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:38,292 - INFO - Finished normalizing output text in: 0.508187 seconds.
+
+2026-01-15 20:54:38,296 - INFO - -------------------------------------------------
+2026-01-15 20:54:38,296 - INFO - Transcribing 184/350: ./dataset/Chinese_Male_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:54:39,306 - INFO - Finished transcribing in: 1.010153 seconds.
+
+2026-01-15 20:54:39,306 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:39,306 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:39,921 - INFO - Finished normalizing output text in: 0.615110 seconds.
+
+2026-01-15 20:54:39,925 - INFO - -------------------------------------------------
+2026-01-15 20:54:39,925 - INFO - Transcribing 185/350: ./dataset/Chinese_Male_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:54:40,868 - INFO - Finished transcribing in: 0.942995 seconds.
+
+2026-01-15 20:54:40,868 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:40,868 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:41,472 - INFO - Finished normalizing output text in: 0.604009 seconds.
+
+2026-01-15 20:54:41,475 - INFO - -------------------------------------------------
+2026-01-15 20:54:41,475 - INFO - Transcribing 186/350: ./dataset/Chinese_Male_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:54:42,420 - INFO - Finished transcribing in: 0.944670 seconds.
+
+2026-01-15 20:54:42,420 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:42,420 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:43,013 - INFO - Finished normalizing output text in: 0.592345 seconds.
+
+2026-01-15 20:54:43,016 - INFO - -------------------------------------------------
+2026-01-15 20:54:43,016 - INFO - Transcribing 187/350: ./dataset/Chinese_Male_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:54:43,960 - INFO - Finished transcribing in: 0.943331 seconds.
+
+2026-01-15 20:54:43,960 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:44,448 - INFO - Finished normalizing output text in: 0.488716 seconds.
+
+2026-01-15 20:54:44,452 - INFO - -------------------------------------------------
+2026-01-15 20:54:44,452 - INFO - Transcribing 188/350: ./dataset/Chinese_Male_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:54:45,403 - INFO - Finished transcribing in: 0.950943 seconds.
+
+2026-01-15 20:54:45,403 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:45,407 - INFO - Finished normalizing output text in: 0.004079 seconds.
+
+2026-01-15 20:54:45,410 - INFO - -------------------------------------------------
+2026-01-15 20:54:45,410 - INFO - Transcribing 189/350: ./dataset/Chinese_Male_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:54:46,447 - INFO - Finished transcribing in: 1.036296 seconds.
+
+2026-01-15 20:54:46,447 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:46,830 - INFO - Finished normalizing output text in: 0.383659 seconds.
+
+2026-01-15 20:54:46,834 - INFO - -------------------------------------------------
+2026-01-15 20:54:46,834 - INFO - Transcribing 190/350: ./dataset/Chinese_Male_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:54:47,786 - INFO - Finished transcribing in: 0.951722 seconds.
+
+2026-01-15 20:54:47,786 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:47,837 - INFO - Finished normalizing output text in: 0.050948 seconds.
+
+2026-01-15 20:54:47,840 - INFO - -------------------------------------------------
+2026-01-15 20:54:47,840 - INFO - Transcribing 191/350: ./dataset/Chinese_Male_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:54:48,813 - INFO - Finished transcribing in: 0.972439 seconds.
+
+2026-01-15 20:54:48,813 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:48,813 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:49,439 - INFO - Finished normalizing output text in: 0.626427 seconds.
+
+2026-01-15 20:54:49,443 - INFO - -------------------------------------------------
+2026-01-15 20:54:49,443 - INFO - Transcribing 192/350: ./dataset/Chinese_Male_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:54:50,379 - INFO - Finished transcribing in: 0.936415 seconds.
+
+2026-01-15 20:54:50,379 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:50,379 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:50,960 - INFO - Finished normalizing output text in: 0.580386 seconds.
+
+2026-01-15 20:54:50,963 - INFO - -------------------------------------------------
+2026-01-15 20:54:50,963 - INFO - Transcribing 193/350: ./dataset/Chinese_Male_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:54:51,896 - INFO - Finished transcribing in: 0.932504 seconds.
+
+2026-01-15 20:54:51,896 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:51,964 - INFO - Finished normalizing output text in: 0.068388 seconds.
+
+2026-01-15 20:54:51,967 - INFO - -------------------------------------------------
+2026-01-15 20:54:51,967 - INFO - Transcribing 194/350: ./dataset/Chinese_Male_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:54:52,951 - INFO - Finished transcribing in: 0.983209 seconds.
+
+2026-01-15 20:54:52,951 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:52,951 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:53,490 - INFO - Finished normalizing output text in: 0.539747 seconds.
+
+2026-01-15 20:54:53,494 - INFO - -------------------------------------------------
+2026-01-15 20:54:53,494 - INFO - Transcribing 195/350: ./dataset/Chinese_Male_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:54:54,431 - INFO - Finished transcribing in: 0.937097 seconds.
+
+2026-01-15 20:54:54,431 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:54,724 - INFO - Finished normalizing output text in: 0.292727 seconds.
+
+2026-01-15 20:54:54,727 - INFO - -------------------------------------------------
+2026-01-15 20:54:54,727 - INFO - Transcribing 196/350: ./dataset/Chinese_Male_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:54:55,670 - INFO - Finished transcribing in: 0.942549 seconds.
+
+2026-01-15 20:54:55,670 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:55,670 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:56,308 - INFO - Finished normalizing output text in: 0.637640 seconds.
+
+2026-01-15 20:54:56,311 - INFO - -------------------------------------------------
+2026-01-15 20:54:56,311 - INFO - Transcribing 197/350: ./dataset/Chinese_Male_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:54:57,259 - INFO - Finished transcribing in: 0.947505 seconds.
+
+2026-01-15 20:54:57,259 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:57,259 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:54:57,878 - INFO - Finished normalizing output text in: 0.619442 seconds.
+
+2026-01-15 20:54:57,882 - INFO - -------------------------------------------------
+2026-01-15 20:54:57,882 - INFO - Transcribing 198/350: ./dataset/Chinese_Male_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:54:58,809 - INFO - Finished transcribing in: 0.927085 seconds.
+
+2026-01-15 20:54:58,809 - INFO - Normalizing output transcribed text...
+2026-01-15 20:54:59,158 - INFO - Finished normalizing output text in: 0.349053 seconds.
+
+2026-01-15 20:54:59,162 - INFO - -------------------------------------------------
+2026-01-15 20:54:59,162 - INFO - Transcribing 199/350: ./dataset/Chinese_Male_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:55:00,114 - INFO - Finished transcribing in: 0.952424 seconds.
+
+2026-01-15 20:55:00,114 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:00,114 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:00,724 - INFO - Finished normalizing output text in: 0.609582 seconds.
+
+2026-01-15 20:55:00,727 - INFO - -------------------------------------------------
+2026-01-15 20:55:00,727 - INFO - Transcribing 200/350: ./dataset/Chinese_Male_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:55:01,686 - INFO - Finished transcribing in: 0.958730 seconds.
+
+2026-01-15 20:55:01,686 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:01,686 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:02,220 - INFO - Finished normalizing output text in: 0.533291 seconds.
+
+2026-01-15 20:55:02,223 - INFO - -------------------------------------------------
+2026-01-15 20:55:02,223 - INFO - Transcribing 201/350: ./dataset/French_Female_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:55:03,330 - INFO - Finished transcribing in: 1.106574 seconds.
+
+2026-01-15 20:55:03,330 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:03,330 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:03,854 - INFO - Finished normalizing output text in: 0.524456 seconds.
+
+2026-01-15 20:55:03,858 - INFO - -------------------------------------------------
+2026-01-15 20:55:03,858 - INFO - Transcribing 202/350: ./dataset/French_Female_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:55:04,929 - INFO - Finished transcribing in: 1.070726 seconds.
+
+2026-01-15 20:55:04,929 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:05,305 - INFO - Finished normalizing output text in: 0.376316 seconds.
+
+2026-01-15 20:55:05,309 - INFO - -------------------------------------------------
+2026-01-15 20:55:05,309 - INFO - Transcribing 203/350: ./dataset/French_Female_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:55:06,416 - INFO - Finished transcribing in: 1.107752 seconds.
+
+2026-01-15 20:55:06,416 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:06,424 - INFO - Finished normalizing output text in: 0.007854 seconds.
+
+2026-01-15 20:55:06,428 - INFO - -------------------------------------------------
+2026-01-15 20:55:06,428 - INFO - Transcribing 204/350: ./dataset/French_Female_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:55:07,527 - INFO - Finished transcribing in: 1.099468 seconds.
+
+2026-01-15 20:55:07,527 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:07,557 - INFO - Finished normalizing output text in: 0.029226 seconds.
+
+2026-01-15 20:55:07,560 - INFO - -------------------------------------------------
+2026-01-15 20:55:07,560 - INFO - Transcribing 205/350: ./dataset/French_Female_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:55:08,670 - INFO - Finished transcribing in: 1.110296 seconds.
+
+2026-01-15 20:55:08,670 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:08,672 - INFO - Finished normalizing output text in: 0.001655 seconds.
+
+2026-01-15 20:55:08,675 - INFO - -------------------------------------------------
+2026-01-15 20:55:08,675 - INFO - Transcribing 206/350: ./dataset/French_Female_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:55:09,800 - INFO - Finished transcribing in: 1.124684 seconds.
+
+2026-01-15 20:55:09,800 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:09,800 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:10,446 - INFO - Finished normalizing output text in: 0.646174 seconds.
+
+2026-01-15 20:55:10,450 - INFO - -------------------------------------------------
+2026-01-15 20:55:10,450 - INFO - Transcribing 207/350: ./dataset/French_Female_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:55:11,532 - INFO - Finished transcribing in: 1.081990 seconds.
+
+2026-01-15 20:55:11,532 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:11,532 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:12,145 - INFO - Finished normalizing output text in: 0.612862 seconds.
+
+2026-01-15 20:55:12,149 - INFO - -------------------------------------------------
+2026-01-15 20:55:12,149 - INFO - Transcribing 208/350: ./dataset/French_Female_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:55:13,227 - INFO - Finished transcribing in: 1.077985 seconds.
+
+2026-01-15 20:55:13,227 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:13,227 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:13,800 - INFO - Finished normalizing output text in: 0.572879 seconds.
+
+2026-01-15 20:55:13,803 - INFO - -------------------------------------------------
+2026-01-15 20:55:13,803 - INFO - Transcribing 209/350: ./dataset/French_Female_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:55:14,885 - INFO - Finished transcribing in: 1.081842 seconds.
+
+2026-01-15 20:55:14,885 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:14,885 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:15,513 - INFO - Finished normalizing output text in: 0.628092 seconds.
+
+2026-01-15 20:55:15,517 - INFO - -------------------------------------------------
+2026-01-15 20:55:15,517 - INFO - Transcribing 210/350: ./dataset/French_Female_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:55:16,602 - INFO - Finished transcribing in: 1.085202 seconds.
+
+2026-01-15 20:55:16,602 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:16,602 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:17,210 - INFO - Finished normalizing output text in: 0.607600 seconds.
+
+2026-01-15 20:55:17,213 - INFO - -------------------------------------------------
+2026-01-15 20:55:17,214 - INFO - Transcribing 211/350: ./dataset/French_Female_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:55:18,303 - INFO - Finished transcribing in: 1.089194 seconds.
+
+2026-01-15 20:55:18,303 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:18,303 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:18,929 - INFO - Finished normalizing output text in: 0.625642 seconds.
+
+2026-01-15 20:55:18,932 - INFO - -------------------------------------------------
+2026-01-15 20:55:18,932 - INFO - Transcribing 212/350: ./dataset/French_Female_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:55:20,021 - INFO - Finished transcribing in: 1.088698 seconds.
+
+2026-01-15 20:55:20,021 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:20,021 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:20,567 - INFO - Finished normalizing output text in: 0.546171 seconds.
+
+2026-01-15 20:55:20,571 - INFO - -------------------------------------------------
+2026-01-15 20:55:20,571 - INFO - Transcribing 213/350: ./dataset/French_Female_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:55:21,633 - INFO - Finished transcribing in: 1.062818 seconds.
+
+2026-01-15 20:55:21,634 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:21,635 - INFO - Finished normalizing output text in: 0.001642 seconds.
+
+2026-01-15 20:55:21,638 - INFO - -------------------------------------------------
+2026-01-15 20:55:21,638 - INFO - Transcribing 214/350: ./dataset/French_Female_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:55:22,730 - INFO - Finished transcribing in: 1.092018 seconds.
+
+2026-01-15 20:55:22,731 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:23,095 - INFO - Finished normalizing output text in: 0.364256 seconds.
+
+2026-01-15 20:55:23,098 - INFO - -------------------------------------------------
+2026-01-15 20:55:23,098 - INFO - Transcribing 215/350: ./dataset/French_Female_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:55:24,174 - INFO - Finished transcribing in: 1.075029 seconds.
+
+2026-01-15 20:55:24,174 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:24,197 - INFO - Finished normalizing output text in: 0.023624 seconds.
+
+2026-01-15 20:55:24,201 - INFO - -------------------------------------------------
+2026-01-15 20:55:24,201 - INFO - Transcribing 216/350: ./dataset/French_Female_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:55:25,318 - INFO - Finished transcribing in: 1.117604 seconds.
+
+2026-01-15 20:55:25,318 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:25,318 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:25,999 - INFO - Finished normalizing output text in: 0.680522 seconds.
+
+2026-01-15 20:55:26,002 - INFO - -------------------------------------------------
+2026-01-15 20:55:26,002 - INFO - Transcribing 217/350: ./dataset/French_Female_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:55:27,089 - INFO - Finished transcribing in: 1.086858 seconds.
+
+2026-01-15 20:55:27,089 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:27,090 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:27,693 - INFO - Finished normalizing output text in: 0.603343 seconds.
+
+2026-01-15 20:55:27,697 - INFO - -------------------------------------------------
+2026-01-15 20:55:27,697 - INFO - Transcribing 218/350: ./dataset/French_Female_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:55:28,772 - INFO - Finished transcribing in: 1.074956 seconds.
+
+2026-01-15 20:55:28,772 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:28,777 - INFO - Finished normalizing output text in: 0.004977 seconds.
+
+2026-01-15 20:55:28,780 - INFO - -------------------------------------------------
+2026-01-15 20:55:28,780 - INFO - Transcribing 219/350: ./dataset/French_Female_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:55:29,862 - INFO - Finished transcribing in: 1.082036 seconds.
+
+2026-01-15 20:55:29,862 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:29,862 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:30,373 - INFO - Finished normalizing output text in: 0.510851 seconds.
+
+2026-01-15 20:55:30,376 - INFO - -------------------------------------------------
+2026-01-15 20:55:30,376 - INFO - Transcribing 220/350: ./dataset/French_Female_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:55:31,481 - INFO - Finished transcribing in: 1.104205 seconds.
+
+2026-01-15 20:55:31,481 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:31,656 - INFO - Finished normalizing output text in: 0.174805 seconds.
+
+2026-01-15 20:55:31,659 - INFO - -------------------------------------------------
+2026-01-15 20:55:31,659 - INFO - Transcribing 221/350: ./dataset/French_Female_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:55:32,764 - INFO - Finished transcribing in: 1.104569 seconds.
+
+2026-01-15 20:55:32,764 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:32,764 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:33,392 - INFO - Finished normalizing output text in: 0.628256 seconds.
+
+2026-01-15 20:55:33,396 - INFO - -------------------------------------------------
+2026-01-15 20:55:33,396 - INFO - Transcribing 222/350: ./dataset/French_Female_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:55:34,495 - INFO - Finished transcribing in: 1.099445 seconds.
+
+2026-01-15 20:55:34,495 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:34,495 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:35,142 - INFO - Finished normalizing output text in: 0.647194 seconds.
+
+2026-01-15 20:55:35,146 - INFO - -------------------------------------------------
+2026-01-15 20:55:35,146 - INFO - Transcribing 223/350: ./dataset/French_Female_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:55:36,236 - INFO - Finished transcribing in: 1.090075 seconds.
+
+2026-01-15 20:55:36,236 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:36,575 - INFO - Finished normalizing output text in: 0.339287 seconds.
+
+2026-01-15 20:55:36,579 - INFO - -------------------------------------------------
+2026-01-15 20:55:36,579 - INFO - Transcribing 224/350: ./dataset/French_Female_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:55:37,657 - INFO - Finished transcribing in: 1.078375 seconds.
+
+2026-01-15 20:55:37,657 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:37,657 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:38,288 - INFO - Finished normalizing output text in: 0.630359 seconds.
+
+2026-01-15 20:55:38,291 - INFO - -------------------------------------------------
+2026-01-15 20:55:38,291 - INFO - Transcribing 225/350: ./dataset/French_Female_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:55:39,381 - INFO - Finished transcribing in: 1.089905 seconds.
+
+2026-01-15 20:55:39,381 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:39,382 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:39,956 - INFO - Finished normalizing output text in: 0.574484 seconds.
+
+2026-01-15 20:55:39,960 - INFO - -------------------------------------------------
+2026-01-15 20:55:39,960 - INFO - Transcribing 226/350: ./dataset/French_Male_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:55:41,214 - INFO - Finished transcribing in: 1.254062 seconds.
+
+2026-01-15 20:55:41,214 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:41,602 - INFO - Finished normalizing output text in: 0.388191 seconds.
+
+2026-01-15 20:55:41,608 - INFO - -------------------------------------------------
+2026-01-15 20:55:41,608 - INFO - Transcribing 227/350: ./dataset/French_Male_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:55:42,870 - INFO - Finished transcribing in: 1.261890 seconds.
+
+2026-01-15 20:55:42,870 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:43,144 - INFO - Finished normalizing output text in: 0.273922 seconds.
+
+2026-01-15 20:55:43,149 - INFO - -------------------------------------------------
+2026-01-15 20:55:43,149 - INFO - Transcribing 228/350: ./dataset/French_Male_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:55:44,400 - INFO - Finished transcribing in: 1.250154 seconds.
+
+2026-01-15 20:55:44,400 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:44,407 - INFO - Finished normalizing output text in: 0.007270 seconds.
+
+2026-01-15 20:55:44,412 - INFO - -------------------------------------------------
+2026-01-15 20:55:44,412 - INFO - Transcribing 229/350: ./dataset/French_Male_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:55:45,683 - INFO - Finished transcribing in: 1.270684 seconds.
+
+2026-01-15 20:55:45,683 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:45,693 - INFO - Finished normalizing output text in: 0.009859 seconds.
+
+2026-01-15 20:55:45,698 - INFO - -------------------------------------------------
+2026-01-15 20:55:45,699 - INFO - Transcribing 230/350: ./dataset/French_Male_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:55:46,958 - INFO - Finished transcribing in: 1.259396 seconds.
+
+2026-01-15 20:55:46,958 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:46,961 - INFO - Finished normalizing output text in: 0.002972 seconds.
+
+2026-01-15 20:55:46,967 - INFO - -------------------------------------------------
+2026-01-15 20:55:46,967 - INFO - Transcribing 231/350: ./dataset/French_Male_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:55:48,248 - INFO - Finished transcribing in: 1.281282 seconds.
+
+2026-01-15 20:55:48,248 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:48,248 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:48,882 - INFO - Finished normalizing output text in: 0.634216 seconds.
+
+2026-01-15 20:55:48,888 - INFO - -------------------------------------------------
+2026-01-15 20:55:48,888 - INFO - Transcribing 232/350: ./dataset/French_Male_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:55:50,138 - INFO - Finished transcribing in: 1.249511 seconds.
+
+2026-01-15 20:55:50,138 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:50,138 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:50,740 - INFO - Finished normalizing output text in: 0.602390 seconds.
+
+2026-01-15 20:55:50,746 - INFO - -------------------------------------------------
+2026-01-15 20:55:50,746 - INFO - Transcribing 233/350: ./dataset/French_Male_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:55:52,001 - INFO - Finished transcribing in: 1.254415 seconds.
+
+2026-01-15 20:55:52,001 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:52,355 - INFO - Finished normalizing output text in: 0.354135 seconds.
+
+2026-01-15 20:55:52,360 - INFO - -------------------------------------------------
+2026-01-15 20:55:52,360 - INFO - Transcribing 234/350: ./dataset/French_Male_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:55:53,613 - INFO - Finished transcribing in: 1.252565 seconds.
+
+2026-01-15 20:55:53,613 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:53,613 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:55:54,219 - INFO - Finished normalizing output text in: 0.605301 seconds.
+
+2026-01-15 20:55:54,224 - INFO - -------------------------------------------------
+2026-01-15 20:55:54,224 - INFO - Transcribing 235/350: ./dataset/French_Male_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:55:55,470 - INFO - Finished transcribing in: 1.245329 seconds.
+
+2026-01-15 20:55:55,470 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:55,967 - INFO - Finished normalizing output text in: 0.497653 seconds.
+
+2026-01-15 20:55:55,973 - INFO - -------------------------------------------------
+2026-01-15 20:55:55,973 - INFO - Transcribing 236/350: ./dataset/French_Male_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:55:57,241 - INFO - Finished transcribing in: 1.267531 seconds.
+
+2026-01-15 20:55:57,241 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:57,763 - INFO - Finished normalizing output text in: 0.522639 seconds.
+
+2026-01-15 20:55:57,769 - INFO - -------------------------------------------------
+2026-01-15 20:55:57,769 - INFO - Transcribing 237/350: ./dataset/French_Male_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:55:59,045 - INFO - Finished transcribing in: 1.276040 seconds.
+
+2026-01-15 20:55:59,045 - INFO - Normalizing output transcribed text...
+2026-01-15 20:55:59,405 - INFO - Finished normalizing output text in: 0.359650 seconds.
+
+2026-01-15 20:55:59,411 - INFO - -------------------------------------------------
+2026-01-15 20:55:59,411 - INFO - Transcribing 238/350: ./dataset/French_Male_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:56:00,650 - INFO - Finished transcribing in: 1.239336 seconds.
+
+2026-01-15 20:56:00,650 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:00,653 - INFO - Finished normalizing output text in: 0.003317 seconds.
+
+2026-01-15 20:56:00,659 - INFO - -------------------------------------------------
+2026-01-15 20:56:00,659 - INFO - Transcribing 239/350: ./dataset/French_Male_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:56:01,921 - INFO - Finished transcribing in: 1.262261 seconds.
+
+2026-01-15 20:56:01,921 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:02,175 - INFO - Finished normalizing output text in: 0.253908 seconds.
+
+2026-01-15 20:56:02,181 - INFO - -------------------------------------------------
+2026-01-15 20:56:02,181 - INFO - Transcribing 240/350: ./dataset/French_Male_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:56:03,447 - INFO - Finished transcribing in: 1.265512 seconds.
+
+2026-01-15 20:56:03,447 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:03,451 - INFO - Finished normalizing output text in: 0.004010 seconds.
+
+2026-01-15 20:56:03,456 - INFO - -------------------------------------------------
+2026-01-15 20:56:03,456 - INFO - Transcribing 241/350: ./dataset/French_Male_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:56:04,724 - INFO - Finished transcribing in: 1.267923 seconds.
+
+2026-01-15 20:56:04,724 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:04,724 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:05,329 - INFO - Finished normalizing output text in: 0.604734 seconds.
+
+2026-01-15 20:56:05,335 - INFO - -------------------------------------------------
+2026-01-15 20:56:05,335 - INFO - Transcribing 242/350: ./dataset/French_Male_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:56:06,597 - INFO - Finished transcribing in: 1.262727 seconds.
+
+2026-01-15 20:56:06,598 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:06,598 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:07,098 - INFO - Finished normalizing output text in: 0.500862 seconds.
+
+2026-01-15 20:56:07,104 - INFO - -------------------------------------------------
+2026-01-15 20:56:07,107 - INFO - Transcribing 243/350: ./dataset/French_Male_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:56:08,353 - INFO - Finished transcribing in: 1.246020 seconds.
+
+2026-01-15 20:56:08,353 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:08,357 - INFO - Finished normalizing output text in: 0.004168 seconds.
+
+2026-01-15 20:56:08,363 - INFO - -------------------------------------------------
+2026-01-15 20:56:08,363 - INFO - Transcribing 244/350: ./dataset/French_Male_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:56:09,622 - INFO - Finished transcribing in: 1.259067 seconds.
+
+2026-01-15 20:56:09,622 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:10,041 - INFO - Finished normalizing output text in: 0.419203 seconds.
+
+2026-01-15 20:56:10,047 - INFO - -------------------------------------------------
+2026-01-15 20:56:10,047 - INFO - Transcribing 245/350: ./dataset/French_Male_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:56:11,296 - INFO - Finished transcribing in: 1.249160 seconds.
+
+2026-01-15 20:56:11,296 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:11,457 - INFO - Finished normalizing output text in: 0.160295 seconds.
+
+2026-01-15 20:56:11,462 - INFO - -------------------------------------------------
+2026-01-15 20:56:11,462 - INFO - Transcribing 246/350: ./dataset/French_Male_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:56:12,736 - INFO - Finished transcribing in: 1.273245 seconds.
+
+2026-01-15 20:56:12,736 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:12,736 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:13,338 - INFO - Finished normalizing output text in: 0.602493 seconds.
+
+2026-01-15 20:56:13,344 - INFO - -------------------------------------------------
+2026-01-15 20:56:13,344 - INFO - Transcribing 247/350: ./dataset/French_Male_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:56:14,592 - INFO - Finished transcribing in: 1.248211 seconds.
+
+2026-01-15 20:56:14,592 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:14,592 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:15,198 - INFO - Finished normalizing output text in: 0.605473 seconds.
+
+2026-01-15 20:56:15,204 - INFO - -------------------------------------------------
+2026-01-15 20:56:15,204 - INFO - Transcribing 248/350: ./dataset/French_Male_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:56:16,464 - INFO - Finished transcribing in: 1.260432 seconds.
+
+2026-01-15 20:56:16,464 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:16,738 - INFO - Finished normalizing output text in: 0.273582 seconds.
+
+2026-01-15 20:56:16,744 - INFO - -------------------------------------------------
+2026-01-15 20:56:16,744 - INFO - Transcribing 249/350: ./dataset/French_Male_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:56:18,019 - INFO - Finished transcribing in: 1.275145 seconds.
+
+2026-01-15 20:56:18,019 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:18,019 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:18,612 - INFO - Finished normalizing output text in: 0.592988 seconds.
+
+2026-01-15 20:56:18,618 - INFO - -------------------------------------------------
+2026-01-15 20:56:18,618 - INFO - Transcribing 250/350: ./dataset/French_Male_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:56:19,871 - INFO - Finished transcribing in: 1.253267 seconds.
+
+2026-01-15 20:56:19,871 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:20,261 - INFO - Finished normalizing output text in: 0.389143 seconds.
+
+2026-01-15 20:56:20,266 - INFO - -------------------------------------------------
+2026-01-15 20:56:20,266 - INFO - Transcribing 251/350: ./dataset/Indian_Female_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:56:21,520 - INFO - Finished transcribing in: 1.253547 seconds.
+
+2026-01-15 20:56:21,520 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:21,520 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:22,036 - INFO - Finished normalizing output text in: 0.515868 seconds.
+
+2026-01-15 20:56:22,042 - INFO - -------------------------------------------------
+2026-01-15 20:56:22,042 - INFO - Transcribing 252/350: ./dataset/Indian_Female_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:56:23,297 - INFO - Finished transcribing in: 1.255603 seconds.
+
+2026-01-15 20:56:23,297 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:23,576 - INFO - Finished normalizing output text in: 0.278539 seconds.
+
+2026-01-15 20:56:23,582 - INFO - -------------------------------------------------
+2026-01-15 20:56:23,582 - INFO - Transcribing 253/350: ./dataset/Indian_Female_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:56:24,828 - INFO - Finished transcribing in: 1.246725 seconds.
+
+2026-01-15 20:56:24,828 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:24,836 - INFO - Finished normalizing output text in: 0.007848 seconds.
+
+2026-01-15 20:56:24,842 - INFO - -------------------------------------------------
+2026-01-15 20:56:24,842 - INFO - Transcribing 254/350: ./dataset/Indian_Female_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:56:26,090 - INFO - Finished transcribing in: 1.248268 seconds.
+
+2026-01-15 20:56:26,090 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:26,093 - INFO - Finished normalizing output text in: 0.002347 seconds.
+
+2026-01-15 20:56:26,098 - INFO - -------------------------------------------------
+2026-01-15 20:56:26,098 - INFO - Transcribing 255/350: ./dataset/Indian_Female_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:56:27,333 - INFO - Finished transcribing in: 1.235124 seconds.
+
+2026-01-15 20:56:27,333 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:27,338 - INFO - Finished normalizing output text in: 0.004977 seconds.
+
+2026-01-15 20:56:27,344 - INFO - -------------------------------------------------
+2026-01-15 20:56:27,344 - INFO - Transcribing 256/350: ./dataset/Indian_Female_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:56:28,606 - INFO - Finished transcribing in: 1.262727 seconds.
+
+2026-01-15 20:56:28,606 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:28,607 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:29,234 - INFO - Finished normalizing output text in: 0.627575 seconds.
+
+2026-01-15 20:56:29,240 - INFO - -------------------------------------------------
+2026-01-15 20:56:29,240 - INFO - Transcribing 257/350: ./dataset/Indian_Female_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:56:30,471 - INFO - Finished transcribing in: 1.230818 seconds.
+
+2026-01-15 20:56:30,471 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:30,471 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:31,111 - INFO - Finished normalizing output text in: 0.640194 seconds.
+
+2026-01-15 20:56:31,117 - INFO - -------------------------------------------------
+2026-01-15 20:56:31,117 - INFO - Transcribing 258/350: ./dataset/Indian_Female_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:56:32,344 - INFO - Finished transcribing in: 1.226583 seconds.
+
+2026-01-15 20:56:32,344 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:32,719 - INFO - Finished normalizing output text in: 0.375125 seconds.
+
+2026-01-15 20:56:32,725 - INFO - -------------------------------------------------
+2026-01-15 20:56:32,725 - INFO - Transcribing 259/350: ./dataset/Indian_Female_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:56:33,953 - INFO - Finished transcribing in: 1.228627 seconds.
+
+2026-01-15 20:56:33,953 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:33,954 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:34,569 - INFO - Finished normalizing output text in: 0.615212 seconds.
+
+2026-01-15 20:56:34,575 - INFO - -------------------------------------------------
+2026-01-15 20:56:34,575 - INFO - Transcribing 260/350: ./dataset/Indian_Female_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:56:35,807 - INFO - Finished transcribing in: 1.232782 seconds.
+
+2026-01-15 20:56:35,808 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:35,808 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:36,451 - INFO - Finished normalizing output text in: 0.643747 seconds.
+
+2026-01-15 20:56:36,457 - INFO - -------------------------------------------------
+2026-01-15 20:56:36,457 - INFO - Transcribing 261/350: ./dataset/Indian_Female_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:56:37,689 - INFO - Finished transcribing in: 1.231321 seconds.
+
+2026-01-15 20:56:37,689 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:37,689 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:38,300 - INFO - Finished normalizing output text in: 0.610838 seconds.
+
+2026-01-15 20:56:38,305 - INFO - -------------------------------------------------
+2026-01-15 20:56:38,305 - INFO - Transcribing 262/350: ./dataset/Indian_Female_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:56:39,547 - INFO - Finished transcribing in: 1.241214 seconds.
+
+2026-01-15 20:56:39,547 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:39,977 - INFO - Finished normalizing output text in: 0.430691 seconds.
+
+2026-01-15 20:56:39,983 - INFO - -------------------------------------------------
+2026-01-15 20:56:39,983 - INFO - Transcribing 263/350: ./dataset/Indian_Female_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:56:41,203 - INFO - Finished transcribing in: 1.219669 seconds.
+
+2026-01-15 20:56:41,203 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:41,209 - INFO - Finished normalizing output text in: 0.005795 seconds.
+
+2026-01-15 20:56:41,217 - INFO - -------------------------------------------------
+2026-01-15 20:56:41,217 - INFO - Transcribing 264/350: ./dataset/Indian_Female_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:56:42,465 - INFO - Finished transcribing in: 1.247800 seconds.
+
+2026-01-15 20:56:42,465 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:42,718 - INFO - Finished normalizing output text in: 0.252676 seconds.
+
+2026-01-15 20:56:42,723 - INFO - -------------------------------------------------
+2026-01-15 20:56:42,723 - INFO - Transcribing 265/350: ./dataset/Indian_Female_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:56:43,961 - INFO - Finished transcribing in: 1.238100 seconds.
+
+2026-01-15 20:56:43,961 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:43,963 - INFO - Finished normalizing output text in: 0.001585 seconds.
+
+2026-01-15 20:56:43,968 - INFO - -------------------------------------------------
+2026-01-15 20:56:43,968 - INFO - Transcribing 266/350: ./dataset/Indian_Female_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:56:45,226 - INFO - Finished transcribing in: 1.257587 seconds.
+
+2026-01-15 20:56:45,226 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:45,226 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:45,864 - INFO - Finished normalizing output text in: 0.638138 seconds.
+
+2026-01-15 20:56:45,870 - INFO - -------------------------------------------------
+2026-01-15 20:56:45,870 - INFO - Transcribing 267/350: ./dataset/Indian_Female_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:56:47,110 - INFO - Finished transcribing in: 1.239856 seconds.
+
+2026-01-15 20:56:47,110 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:47,110 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:47,749 - INFO - Finished normalizing output text in: 0.639221 seconds.
+
+2026-01-15 20:56:47,755 - INFO - -------------------------------------------------
+2026-01-15 20:56:47,755 - INFO - Transcribing 268/350: ./dataset/Indian_Female_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:56:48,970 - INFO - Finished transcribing in: 1.214741 seconds.
+
+2026-01-15 20:56:48,970 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:48,972 - INFO - Finished normalizing output text in: 0.001469 seconds.
+
+2026-01-15 20:56:48,977 - INFO - -------------------------------------------------
+2026-01-15 20:56:48,977 - INFO - Transcribing 269/350: ./dataset/Indian_Female_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:56:50,213 - INFO - Finished transcribing in: 1.235792 seconds.
+
+2026-01-15 20:56:50,213 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:50,213 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:50,691 - INFO - Finished normalizing output text in: 0.477997 seconds.
+
+2026-01-15 20:56:50,696 - INFO - -------------------------------------------------
+2026-01-15 20:56:50,696 - INFO - Transcribing 270/350: ./dataset/Indian_Female_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:56:51,919 - INFO - Finished transcribing in: 1.222792 seconds.
+
+2026-01-15 20:56:51,919 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:51,963 - INFO - Finished normalizing output text in: 0.043857 seconds.
+
+2026-01-15 20:56:51,969 - INFO - -------------------------------------------------
+2026-01-15 20:56:51,969 - INFO - Transcribing 271/350: ./dataset/Indian_Female_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:56:53,212 - INFO - Finished transcribing in: 1.243132 seconds.
+
+2026-01-15 20:56:53,212 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:53,212 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:53,833 - INFO - Finished normalizing output text in: 0.621137 seconds.
+
+2026-01-15 20:56:53,839 - INFO - -------------------------------------------------
+2026-01-15 20:56:53,839 - INFO - Transcribing 272/350: ./dataset/Indian_Female_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:56:55,075 - INFO - Finished transcribing in: 1.235890 seconds.
+
+2026-01-15 20:56:55,075 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:55,075 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:55,686 - INFO - Finished normalizing output text in: 0.611233 seconds.
+
+2026-01-15 20:56:55,692 - INFO - -------------------------------------------------
+2026-01-15 20:56:55,692 - INFO - Transcribing 273/350: ./dataset/Indian_Female_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:56:56,921 - INFO - Finished transcribing in: 1.229279 seconds.
+
+2026-01-15 20:56:56,922 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:57,177 - INFO - Finished normalizing output text in: 0.255376 seconds.
+
+2026-01-15 20:56:57,182 - INFO - -------------------------------------------------
+2026-01-15 20:56:57,183 - INFO - Transcribing 274/350: ./dataset/Indian_Female_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:56:58,444 - INFO - Finished transcribing in: 1.261208 seconds.
+
+2026-01-15 20:56:58,444 - INFO - Normalizing output transcribed text...
+2026-01-15 20:56:58,444 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:56:59,057 - INFO - Finished normalizing output text in: 0.613615 seconds.
+
+2026-01-15 20:56:59,063 - INFO - -------------------------------------------------
+2026-01-15 20:56:59,063 - INFO - Transcribing 275/350: ./dataset/Indian_Female_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:57:00,302 - INFO - Finished transcribing in: 1.238956 seconds.
+
+2026-01-15 20:57:00,302 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:00,734 - INFO - Finished normalizing output text in: 0.431568 seconds.
+
+2026-01-15 20:57:00,740 - INFO - -------------------------------------------------
+2026-01-15 20:57:00,740 - INFO - Transcribing 276/350: ./dataset/Indian_Male_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:57:02,053 - INFO - Finished transcribing in: 1.312856 seconds.
+
+2026-01-15 20:57:02,053 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:02,053 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:02,614 - INFO - Finished normalizing output text in: 0.561650 seconds.
+
+2026-01-15 20:57:02,620 - INFO - -------------------------------------------------
+2026-01-15 20:57:02,620 - INFO - Transcribing 277/350: ./dataset/Indian_Male_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:57:03,947 - INFO - Finished transcribing in: 1.326613 seconds.
+
+2026-01-15 20:57:03,947 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:04,317 - INFO - Finished normalizing output text in: 0.370204 seconds.
+
+2026-01-15 20:57:04,323 - INFO - -------------------------------------------------
+2026-01-15 20:57:04,323 - INFO - Transcribing 278/350: ./dataset/Indian_Male_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:57:05,640 - INFO - Finished transcribing in: 1.316864 seconds.
+
+2026-01-15 20:57:05,640 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:05,648 - INFO - Finished normalizing output text in: 0.007983 seconds.
+
+2026-01-15 20:57:05,653 - INFO - -------------------------------------------------
+2026-01-15 20:57:05,653 - INFO - Transcribing 279/350: ./dataset/Indian_Male_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:57:06,970 - INFO - Finished transcribing in: 1.316742 seconds.
+
+2026-01-15 20:57:06,970 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:07,028 - INFO - Finished normalizing output text in: 0.057735 seconds.
+
+2026-01-15 20:57:07,034 - INFO - -------------------------------------------------
+2026-01-15 20:57:07,034 - INFO - Transcribing 280/350: ./dataset/Indian_Male_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:57:08,349 - INFO - Finished transcribing in: 1.315805 seconds.
+
+2026-01-15 20:57:08,350 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:08,352 - INFO - Finished normalizing output text in: 0.002854 seconds.
+
+2026-01-15 20:57:08,358 - INFO - -------------------------------------------------
+2026-01-15 20:57:08,358 - INFO - Transcribing 281/350: ./dataset/Indian_Male_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:57:09,686 - INFO - Finished transcribing in: 1.327990 seconds.
+
+2026-01-15 20:57:09,686 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:09,686 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:10,334 - INFO - Finished normalizing output text in: 0.647842 seconds.
+
+2026-01-15 20:57:10,340 - INFO - -------------------------------------------------
+2026-01-15 20:57:10,340 - INFO - Transcribing 282/350: ./dataset/Indian_Male_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:57:11,646 - INFO - Finished transcribing in: 1.306794 seconds.
+
+2026-01-15 20:57:11,647 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:11,647 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:12,314 - INFO - Finished normalizing output text in: 0.667752 seconds.
+
+2026-01-15 20:57:12,320 - INFO - -------------------------------------------------
+2026-01-15 20:57:12,320 - INFO - Transcribing 283/350: ./dataset/Indian_Male_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:57:13,650 - INFO - Finished transcribing in: 1.330062 seconds.
+
+2026-01-15 20:57:13,650 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:13,650 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:14,242 - INFO - Finished normalizing output text in: 0.592135 seconds.
+
+2026-01-15 20:57:14,248 - INFO - -------------------------------------------------
+2026-01-15 20:57:14,248 - INFO - Transcribing 284/350: ./dataset/Indian_Male_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:57:15,579 - INFO - Finished transcribing in: 1.330559 seconds.
+
+2026-01-15 20:57:15,579 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:15,579 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:16,254 - INFO - Finished normalizing output text in: 0.675490 seconds.
+
+2026-01-15 20:57:16,260 - INFO - -------------------------------------------------
+2026-01-15 20:57:16,260 - INFO - Transcribing 285/350: ./dataset/Indian_Male_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:57:17,573 - INFO - Finished transcribing in: 1.313345 seconds.
+
+2026-01-15 20:57:17,574 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:17,574 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:18,173 - INFO - Finished normalizing output text in: 0.599813 seconds.
+
+2026-01-15 20:57:18,179 - INFO - -------------------------------------------------
+2026-01-15 20:57:18,179 - INFO - Transcribing 286/350: ./dataset/Indian_Male_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:57:19,501 - INFO - Finished transcribing in: 1.321696 seconds.
+
+2026-01-15 20:57:19,501 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:19,501 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:20,106 - INFO - Finished normalizing output text in: 0.605085 seconds.
+
+2026-01-15 20:57:20,112 - INFO - -------------------------------------------------
+2026-01-15 20:57:20,112 - INFO - Transcribing 287/350: ./dataset/Indian_Male_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:57:21,423 - INFO - Finished transcribing in: 1.310940 seconds.
+
+2026-01-15 20:57:21,423 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:21,423 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:22,011 - INFO - Finished normalizing output text in: 0.588042 seconds.
+
+2026-01-15 20:57:22,017 - INFO - -------------------------------------------------
+2026-01-15 20:57:22,017 - INFO - Transcribing 288/350: ./dataset/Indian_Male_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:57:23,335 - INFO - Finished transcribing in: 1.318414 seconds.
+
+2026-01-15 20:57:23,335 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:23,339 - INFO - Finished normalizing output text in: 0.003862 seconds.
+
+2026-01-15 20:57:23,345 - INFO - -------------------------------------------------
+2026-01-15 20:57:23,345 - INFO - Transcribing 289/350: ./dataset/Indian_Male_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:57:24,662 - INFO - Finished transcribing in: 1.316584 seconds.
+
+2026-01-15 20:57:24,662 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:25,041 - INFO - Finished normalizing output text in: 0.379436 seconds.
+
+2026-01-15 20:57:25,047 - INFO - -------------------------------------------------
+2026-01-15 20:57:25,047 - INFO - Transcribing 290/350: ./dataset/Indian_Male_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:57:26,362 - INFO - Finished transcribing in: 1.315003 seconds.
+
+2026-01-15 20:57:26,362 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:26,378 - INFO - Finished normalizing output text in: 0.015974 seconds.
+
+2026-01-15 20:57:26,383 - INFO - -------------------------------------------------
+2026-01-15 20:57:26,384 - INFO - Transcribing 291/350: ./dataset/Indian_Male_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:57:27,712 - INFO - Finished transcribing in: 1.328008 seconds.
+
+2026-01-15 20:57:27,712 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:27,712 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:28,409 - INFO - Finished normalizing output text in: 0.697476 seconds.
+
+2026-01-15 20:57:28,415 - INFO - -------------------------------------------------
+2026-01-15 20:57:28,415 - INFO - Transcribing 292/350: ./dataset/Indian_Male_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:57:29,738 - INFO - Finished transcribing in: 1.323337 seconds.
+
+2026-01-15 20:57:29,738 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:29,739 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:30,367 - INFO - Finished normalizing output text in: 0.628762 seconds.
+
+2026-01-15 20:57:30,373 - INFO - -------------------------------------------------
+2026-01-15 20:57:30,373 - INFO - Transcribing 293/350: ./dataset/Indian_Male_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:57:31,662 - INFO - Finished transcribing in: 1.289308 seconds.
+
+2026-01-15 20:57:31,662 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:31,684 - INFO - Finished normalizing output text in: 0.021615 seconds.
+
+2026-01-15 20:57:31,690 - INFO - -------------------------------------------------
+2026-01-15 20:57:31,690 - INFO - Transcribing 294/350: ./dataset/Indian_Male_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:57:33,018 - INFO - Finished transcribing in: 1.328190 seconds.
+
+2026-01-15 20:57:33,018 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:33,018 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:33,601 - INFO - Finished normalizing output text in: 0.583377 seconds.
+
+2026-01-15 20:57:33,607 - INFO - -------------------------------------------------
+2026-01-15 20:57:33,607 - INFO - Transcribing 295/350: ./dataset/Indian_Male_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:57:34,920 - INFO - Finished transcribing in: 1.312519 seconds.
+
+2026-01-15 20:57:34,920 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:35,223 - INFO - Finished normalizing output text in: 0.303303 seconds.
+
+2026-01-15 20:57:35,229 - INFO - -------------------------------------------------
+2026-01-15 20:57:35,229 - INFO - Transcribing 296/350: ./dataset/Indian_Male_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:57:36,559 - INFO - Finished transcribing in: 1.330002 seconds.
+
+2026-01-15 20:57:36,559 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:36,559 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:37,206 - INFO - Finished normalizing output text in: 0.647163 seconds.
+
+2026-01-15 20:57:37,212 - INFO - -------------------------------------------------
+2026-01-15 20:57:37,212 - INFO - Transcribing 297/350: ./dataset/Indian_Male_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:57:38,532 - INFO - Finished transcribing in: 1.320515 seconds.
+
+2026-01-15 20:57:38,532 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:38,533 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:39,205 - INFO - Finished normalizing output text in: 0.672409 seconds.
+
+2026-01-15 20:57:39,211 - INFO - -------------------------------------------------
+2026-01-15 20:57:39,211 - INFO - Transcribing 298/350: ./dataset/Indian_Male_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:57:40,596 - INFO - Finished transcribing in: 1.384988 seconds.
+
+2026-01-15 20:57:40,596 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:40,979 - INFO - Finished normalizing output text in: 0.382715 seconds.
+
+2026-01-15 20:57:40,984 - INFO - -------------------------------------------------
+2026-01-15 20:57:40,984 - INFO - Transcribing 299/350: ./dataset/Indian_Male_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:57:42,315 - INFO - Finished transcribing in: 1.330802 seconds.
+
+2026-01-15 20:57:42,315 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:42,316 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:42,950 - INFO - Finished normalizing output text in: 0.634647 seconds.
+
+2026-01-15 20:57:42,956 - INFO - -------------------------------------------------
+2026-01-15 20:57:42,956 - INFO - Transcribing 300/350: ./dataset/Indian_Male_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:57:44,254 - INFO - Finished transcribing in: 1.297829 seconds.
+
+2026-01-15 20:57:44,254 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:44,254 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:44,818 - INFO - Finished normalizing output text in: 0.563973 seconds.
+
+2026-01-15 20:57:44,823 - INFO - -------------------------------------------------
+2026-01-15 20:57:44,823 - INFO - Transcribing 301/350: ./dataset/Spanish_Female_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:57:45,613 - INFO - Finished transcribing in: 0.789693 seconds.
+
+2026-01-15 20:57:45,613 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:45,613 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:46,253 - INFO - Finished normalizing output text in: 0.639944 seconds.
+
+2026-01-15 20:57:46,257 - INFO - -------------------------------------------------
+2026-01-15 20:57:46,257 - INFO - Transcribing 302/350: ./dataset/Spanish_Female_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:57:47,030 - INFO - Finished transcribing in: 0.772698 seconds.
+
+2026-01-15 20:57:47,030 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:47,030 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:47,589 - INFO - Finished normalizing output text in: 0.559281 seconds.
+
+2026-01-15 20:57:47,592 - INFO - -------------------------------------------------
+2026-01-15 20:57:47,592 - INFO - Transcribing 303/350: ./dataset/Spanish_Female_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:57:48,362 - INFO - Finished transcribing in: 0.769374 seconds.
+
+2026-01-15 20:57:48,362 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:48,362 - INFO - Finished normalizing output text in: 0.000106 seconds.
+
+2026-01-15 20:57:48,365 - INFO - -------------------------------------------------
+2026-01-15 20:57:48,365 - INFO - Transcribing 304/350: ./dataset/Spanish_Female_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:57:49,194 - INFO - Finished transcribing in: 0.828462 seconds.
+
+2026-01-15 20:57:49,194 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:49,296 - INFO - Finished normalizing output text in: 0.102756 seconds.
+
+2026-01-15 20:57:49,300 - INFO - -------------------------------------------------
+2026-01-15 20:57:49,300 - INFO - Transcribing 305/350: ./dataset/Spanish_Female_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:57:50,090 - INFO - Finished transcribing in: 0.789849 seconds.
+
+2026-01-15 20:57:50,090 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:50,090 - INFO - Finished normalizing output text in: 0.000107 seconds.
+
+2026-01-15 20:57:50,093 - INFO - -------------------------------------------------
+2026-01-15 20:57:50,093 - INFO - Transcribing 306/350: ./dataset/Spanish_Female_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:57:50,977 - INFO - Finished transcribing in: 0.884015 seconds.
+
+2026-01-15 20:57:50,977 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:50,978 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:51,659 - INFO - Finished normalizing output text in: 0.681601 seconds.
+
+2026-01-15 20:57:51,662 - INFO - -------------------------------------------------
+2026-01-15 20:57:51,668 - INFO - Transcribing 307/350: ./dataset/Spanish_Female_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:57:52,443 - INFO - Finished transcribing in: 0.775562 seconds.
+
+2026-01-15 20:57:52,443 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:52,444 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:53,119 - INFO - Finished normalizing output text in: 0.675138 seconds.
+
+2026-01-15 20:57:53,122 - INFO - -------------------------------------------------
+2026-01-15 20:57:53,122 - INFO - Transcribing 308/350: ./dataset/Spanish_Female_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:57:53,898 - INFO - Finished transcribing in: 0.776344 seconds.
+
+2026-01-15 20:57:53,898 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:53,899 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:54,519 - INFO - Finished normalizing output text in: 0.620095 seconds.
+
+2026-01-15 20:57:54,522 - INFO - -------------------------------------------------
+2026-01-15 20:57:54,522 - INFO - Transcribing 309/350: ./dataset/Spanish_Female_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:57:55,303 - INFO - Finished transcribing in: 0.780602 seconds.
+
+2026-01-15 20:57:55,303 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:55,303 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:55,949 - INFO - Finished normalizing output text in: 0.645841 seconds.
+
+2026-01-15 20:57:55,952 - INFO - -------------------------------------------------
+2026-01-15 20:57:55,952 - INFO - Transcribing 310/350: ./dataset/Spanish_Female_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:57:56,732 - INFO - Finished transcribing in: 0.780366 seconds.
+
+2026-01-15 20:57:56,732 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:56,733 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:57,413 - INFO - Finished normalizing output text in: 0.680478 seconds.
+
+2026-01-15 20:57:57,416 - INFO - -------------------------------------------------
+2026-01-15 20:57:57,417 - INFO - Transcribing 311/350: ./dataset/Spanish_Female_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:57:58,205 - INFO - Finished transcribing in: 0.788798 seconds.
+
+2026-01-15 20:57:58,205 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:58,206 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:57:58,857 - INFO - Finished normalizing output text in: 0.651955 seconds.
+
+2026-01-15 20:57:58,861 - INFO - -------------------------------------------------
+2026-01-15 20:57:58,861 - INFO - Transcribing 312/350: ./dataset/Spanish_Female_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:57:59,643 - INFO - Finished transcribing in: 0.782015 seconds.
+
+2026-01-15 20:57:59,643 - INFO - Normalizing output transcribed text...
+2026-01-15 20:57:59,643 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:00,286 - INFO - Finished normalizing output text in: 0.642643 seconds.
+
+2026-01-15 20:58:00,289 - INFO - -------------------------------------------------
+2026-01-15 20:58:00,289 - INFO - Transcribing 313/350: ./dataset/Spanish_Female_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:58:01,062 - INFO - Finished transcribing in: 0.773091 seconds.
+
+2026-01-15 20:58:01,062 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:01,064 - INFO - Finished normalizing output text in: 0.001287 seconds.
+
+2026-01-15 20:58:01,067 - INFO - -------------------------------------------------
+2026-01-15 20:58:01,067 - INFO - Transcribing 314/350: ./dataset/Spanish_Female_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:58:01,908 - INFO - Finished transcribing in: 0.841169 seconds.
+
+2026-01-15 20:58:01,908 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:01,908 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:02,458 - INFO - Finished normalizing output text in: 0.550068 seconds.
+
+2026-01-15 20:58:02,462 - INFO - -------------------------------------------------
+2026-01-15 20:58:02,467 - INFO - Transcribing 315/350: ./dataset/Spanish_Female_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:58:03,232 - INFO - Finished transcribing in: 0.765208 seconds.
+
+2026-01-15 20:58:03,232 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:03,240 - INFO - Finished normalizing output text in: 0.007901 seconds.
+
+2026-01-15 20:58:03,243 - INFO - -------------------------------------------------
+2026-01-15 20:58:03,243 - INFO - Transcribing 316/350: ./dataset/Spanish_Female_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:58:04,089 - INFO - Finished transcribing in: 0.846025 seconds.
+
+2026-01-15 20:58:04,089 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:04,089 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:04,737 - INFO - Finished normalizing output text in: 0.647859 seconds.
+
+2026-01-15 20:58:04,740 - INFO - -------------------------------------------------
+2026-01-15 20:58:04,740 - INFO - Transcribing 317/350: ./dataset/Spanish_Female_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:58:05,518 - INFO - Finished transcribing in: 0.777300 seconds.
+
+2026-01-15 20:58:05,518 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:05,518 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:06,177 - INFO - Finished normalizing output text in: 0.659159 seconds.
+
+2026-01-15 20:58:06,181 - INFO - -------------------------------------------------
+2026-01-15 20:58:06,181 - INFO - Transcribing 318/350: ./dataset/Spanish_Female_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:58:06,949 - INFO - Finished transcribing in: 0.768780 seconds.
+
+2026-01-15 20:58:06,949 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:06,956 - INFO - Finished normalizing output text in: 0.006636 seconds.
+
+2026-01-15 20:58:06,959 - INFO - -------------------------------------------------
+2026-01-15 20:58:06,959 - INFO - Transcribing 319/350: ./dataset/Spanish_Female_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:58:07,795 - INFO - Finished transcribing in: 0.836098 seconds.
+
+2026-01-15 20:58:07,795 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:07,796 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:08,393 - INFO - Finished normalizing output text in: 0.597167 seconds.
+
+2026-01-15 20:58:08,396 - INFO - -------------------------------------------------
+2026-01-15 20:58:08,396 - INFO - Transcribing 320/350: ./dataset/Spanish_Female_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:58:09,173 - INFO - Finished transcribing in: 0.776461 seconds.
+
+2026-01-15 20:58:09,173 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:09,554 - INFO - Finished normalizing output text in: 0.381122 seconds.
+
+2026-01-15 20:58:09,557 - INFO - -------------------------------------------------
+2026-01-15 20:58:09,557 - INFO - Transcribing 321/350: ./dataset/Spanish_Female_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:58:10,338 - INFO - Finished transcribing in: 0.781095 seconds.
+
+2026-01-15 20:58:10,338 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:10,339 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:11,048 - INFO - Finished normalizing output text in: 0.709462 seconds.
+
+2026-01-15 20:58:11,051 - INFO - -------------------------------------------------
+2026-01-15 20:58:11,052 - INFO - Transcribing 322/350: ./dataset/Spanish_Female_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:58:11,823 - INFO - Finished transcribing in: 0.771824 seconds.
+
+2026-01-15 20:58:11,823 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:11,824 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:12,502 - INFO - Finished normalizing output text in: 0.678642 seconds.
+
+2026-01-15 20:58:12,506 - INFO - -------------------------------------------------
+2026-01-15 20:58:12,506 - INFO - Transcribing 323/350: ./dataset/Spanish_Female_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:58:13,280 - INFO - Finished transcribing in: 0.774345 seconds.
+
+2026-01-15 20:58:13,280 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:13,280 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:13,831 - INFO - Finished normalizing output text in: 0.550198 seconds.
+
+2026-01-15 20:58:13,834 - INFO - -------------------------------------------------
+2026-01-15 20:58:13,839 - INFO - Transcribing 324/350: ./dataset/Spanish_Female_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:58:14,622 - INFO - Finished transcribing in: 0.783511 seconds.
+
+2026-01-15 20:58:14,622 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:14,623 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:15,283 - INFO - Finished normalizing output text in: 0.660111 seconds.
+
+2026-01-15 20:58:15,286 - INFO - -------------------------------------------------
+2026-01-15 20:58:15,286 - INFO - Transcribing 325/350: ./dataset/Spanish_Female_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:58:16,071 - INFO - Finished transcribing in: 0.784756 seconds.
+
+2026-01-15 20:58:16,071 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:16,071 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:16,687 - INFO - Finished normalizing output text in: 0.616489 seconds.
+
+2026-01-15 20:58:16,691 - INFO - -------------------------------------------------
+2026-01-15 20:58:16,691 - INFO - Transcribing 326/350: ./dataset/Spanish_Male_audiovoice_05_bgnoise_05.wav ...
+2026-01-15 20:58:17,475 - INFO - Finished transcribing in: 0.784291 seconds.
+
+2026-01-15 20:58:17,475 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:17,475 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:18,105 - INFO - Finished normalizing output text in: 0.629881 seconds.
+
+2026-01-15 20:58:18,109 - INFO - -------------------------------------------------
+2026-01-15 20:58:18,109 - INFO - Transcribing 327/350: ./dataset/Spanish_Male_audiovoice_05_bgnoise_10.wav ...
+2026-01-15 20:58:18,897 - INFO - Finished transcribing in: 0.787824 seconds.
+
+2026-01-15 20:58:18,897 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:18,897 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:19,428 - INFO - Finished normalizing output text in: 0.531717 seconds.
+
+2026-01-15 20:58:19,432 - INFO - -------------------------------------------------
+2026-01-15 20:58:19,432 - INFO - Transcribing 328/350: ./dataset/Spanish_Male_audiovoice_05_bgnoise_100.wav ...
+2026-01-15 20:58:20,196 - INFO - Finished transcribing in: 0.764180 seconds.
+
+2026-01-15 20:58:20,196 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:20,198 - INFO - Finished normalizing output text in: 0.001220 seconds.
+
+2026-01-15 20:58:20,201 - INFO - -------------------------------------------------
+2026-01-15 20:58:20,201 - INFO - Transcribing 329/350: ./dataset/Spanish_Male_audiovoice_05_bgnoise_20.wav ...
+2026-01-15 20:58:21,041 - INFO - Finished transcribing in: 0.840349 seconds.
+
+2026-01-15 20:58:21,041 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:21,254 - INFO - Finished normalizing output text in: 0.213215 seconds.
+
+2026-01-15 20:58:21,258 - INFO - -------------------------------------------------
+2026-01-15 20:58:21,258 - INFO - Transcribing 330/350: ./dataset/Spanish_Male_audiovoice_05_bgnoise_50.wav ...
+2026-01-15 20:58:22,044 - INFO - Finished transcribing in: 0.786667 seconds.
+
+2026-01-15 20:58:22,044 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:22,046 - INFO - Finished normalizing output text in: 0.001251 seconds.
+
+2026-01-15 20:58:22,049 - INFO - -------------------------------------------------
+2026-01-15 20:58:22,049 - INFO - Transcribing 331/350: ./dataset/Spanish_Male_audiovoice_100_bgnoise_05.wav ...
+2026-01-15 20:58:22,940 - INFO - Finished transcribing in: 0.891455 seconds.
+
+2026-01-15 20:58:22,940 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:22,941 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:23,585 - INFO - Finished normalizing output text in: 0.644426 seconds.
+
+2026-01-15 20:58:23,588 - INFO - -------------------------------------------------
+2026-01-15 20:58:23,588 - INFO - Transcribing 332/350: ./dataset/Spanish_Male_audiovoice_100_bgnoise_10.wav ...
+2026-01-15 20:58:24,373 - INFO - Finished transcribing in: 0.784324 seconds.
+
+2026-01-15 20:58:24,373 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:24,373 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:25,051 - INFO - Finished normalizing output text in: 0.678062 seconds.
+
+2026-01-15 20:58:25,054 - INFO - -------------------------------------------------
+2026-01-15 20:58:25,055 - INFO - Transcribing 333/350: ./dataset/Spanish_Male_audiovoice_100_bgnoise_100.wav ...
+2026-01-15 20:58:25,825 - INFO - Finished transcribing in: 0.770767 seconds.
+
+2026-01-15 20:58:25,825 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:25,826 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:26,441 - INFO - Finished normalizing output text in: 0.615222 seconds.
+
+2026-01-15 20:58:26,444 - INFO - -------------------------------------------------
+2026-01-15 20:58:26,449 - INFO - Transcribing 334/350: ./dataset/Spanish_Male_audiovoice_100_bgnoise_20.wav ...
+2026-01-15 20:58:27,234 - INFO - Finished transcribing in: 0.785473 seconds.
+
+2026-01-15 20:58:27,235 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:27,235 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:27,913 - INFO - Finished normalizing output text in: 0.678774 seconds.
+
+2026-01-15 20:58:27,917 - INFO - -------------------------------------------------
+2026-01-15 20:58:27,917 - INFO - Transcribing 335/350: ./dataset/Spanish_Male_audiovoice_100_bgnoise_50.wav ...
+2026-01-15 20:58:28,702 - INFO - Finished transcribing in: 0.785181 seconds.
+
+2026-01-15 20:58:28,702 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:28,702 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:29,347 - INFO - Finished normalizing output text in: 0.645178 seconds.
+
+2026-01-15 20:58:29,351 - INFO - -------------------------------------------------
+2026-01-15 20:58:29,351 - INFO - Transcribing 336/350: ./dataset/Spanish_Male_audiovoice_10_bgnoise_05.wav ...
+2026-01-15 20:58:30,137 - INFO - Finished transcribing in: 0.786264 seconds.
+
+2026-01-15 20:58:30,137 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:30,137 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:30,781 - INFO - Finished normalizing output text in: 0.643590 seconds.
+
+2026-01-15 20:58:30,784 - INFO - -------------------------------------------------
+2026-01-15 20:58:30,784 - INFO - Transcribing 337/350: ./dataset/Spanish_Male_audiovoice_10_bgnoise_10.wav ...
+2026-01-15 20:58:31,569 - INFO - Finished transcribing in: 0.784864 seconds.
+
+2026-01-15 20:58:31,569 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:31,570 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:32,192 - INFO - Finished normalizing output text in: 0.622985 seconds.
+
+2026-01-15 20:58:32,196 - INFO - -------------------------------------------------
+2026-01-15 20:58:32,196 - INFO - Transcribing 338/350: ./dataset/Spanish_Male_audiovoice_10_bgnoise_100.wav ...
+2026-01-15 20:58:32,972 - INFO - Finished transcribing in: 0.775975 seconds.
+
+2026-01-15 20:58:32,972 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:32,974 - INFO - Finished normalizing output text in: 0.001548 seconds.
+
+2026-01-15 20:58:32,977 - INFO - -------------------------------------------------
+2026-01-15 20:58:32,977 - INFO - Transcribing 339/350: ./dataset/Spanish_Male_audiovoice_10_bgnoise_20.wav ...
+2026-01-15 20:58:33,812 - INFO - Finished transcribing in: 0.835551 seconds.
+
+2026-01-15 20:58:33,812 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:33,813 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:34,334 - INFO - Finished normalizing output text in: 0.521395 seconds.
+
+2026-01-15 20:58:34,337 - INFO - -------------------------------------------------
+2026-01-15 20:58:34,337 - INFO - Transcribing 340/350: ./dataset/Spanish_Male_audiovoice_10_bgnoise_50.wav ...
+2026-01-15 20:58:35,120 - INFO - Finished transcribing in: 0.782918 seconds.
+
+2026-01-15 20:58:35,120 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:35,205 - INFO - Finished normalizing output text in: 0.084453 seconds.
+
+2026-01-15 20:58:35,208 - INFO - -------------------------------------------------
+2026-01-15 20:58:35,208 - INFO - Transcribing 341/350: ./dataset/Spanish_Male_audiovoice_20_bgnoise_05.wav ...
+2026-01-15 20:58:36,016 - INFO - Finished transcribing in: 0.807433 seconds.
+
+2026-01-15 20:58:36,016 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:36,016 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:36,669 - INFO - Finished normalizing output text in: 0.653065 seconds.
+
+2026-01-15 20:58:36,672 - INFO - -------------------------------------------------
+2026-01-15 20:58:36,678 - INFO - Transcribing 342/350: ./dataset/Spanish_Male_audiovoice_20_bgnoise_10.wav ...
+2026-01-15 20:58:37,465 - INFO - Finished transcribing in: 0.786480 seconds.
+
+2026-01-15 20:58:37,465 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:37,465 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:38,081 - INFO - Finished normalizing output text in: 0.616122 seconds.
+
+2026-01-15 20:58:38,084 - INFO - -------------------------------------------------
+2026-01-15 20:58:38,084 - INFO - Transcribing 343/350: ./dataset/Spanish_Male_audiovoice_20_bgnoise_100.wav ...
+2026-01-15 20:58:38,866 - INFO - Finished transcribing in: 0.781434 seconds.
+
+2026-01-15 20:58:38,866 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:38,934 - INFO - Finished normalizing output text in: 0.068182 seconds.
+
+2026-01-15 20:58:38,937 - INFO - -------------------------------------------------
+2026-01-15 20:58:38,937 - INFO - Transcribing 344/350: ./dataset/Spanish_Male_audiovoice_20_bgnoise_20.wav ...
+2026-01-15 20:58:39,761 - INFO - Finished transcribing in: 0.823942 seconds.
+
+2026-01-15 20:58:39,761 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:39,761 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:40,381 - INFO - Finished normalizing output text in: 0.620127 seconds.
+
+2026-01-15 20:58:40,385 - INFO - -------------------------------------------------
+2026-01-15 20:58:40,385 - INFO - Transcribing 345/350: ./dataset/Spanish_Male_audiovoice_20_bgnoise_50.wav ...
+2026-01-15 20:58:41,164 - INFO - Finished transcribing in: 0.779464 seconds.
+
+2026-01-15 20:58:41,164 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:41,529 - INFO - Finished normalizing output text in: 0.364150 seconds.
+
+2026-01-15 20:58:41,532 - INFO - -------------------------------------------------
+2026-01-15 20:58:41,532 - INFO - Transcribing 346/350: ./dataset/Spanish_Male_audiovoice_50_bgnoise_05.wav ...
+2026-01-15 20:58:42,319 - INFO - Finished transcribing in: 0.787220 seconds.
+
+2026-01-15 20:58:42,319 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:42,319 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:42,964 - INFO - Finished normalizing output text in: 0.645169 seconds.
+
+2026-01-15 20:58:42,968 - INFO - -------------------------------------------------
+2026-01-15 20:58:42,968 - INFO - Transcribing 347/350: ./dataset/Spanish_Male_audiovoice_50_bgnoise_10.wav ...
+2026-01-15 20:58:43,754 - INFO - Finished transcribing in: 0.786478 seconds.
+
+2026-01-15 20:58:43,755 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:43,755 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:44,401 - INFO - Finished normalizing output text in: 0.646567 seconds.
+
+2026-01-15 20:58:44,405 - INFO - -------------------------------------------------
+2026-01-15 20:58:44,405 - INFO - Transcribing 348/350: ./dataset/Spanish_Male_audiovoice_50_bgnoise_100.wav ...
+2026-01-15 20:58:45,190 - INFO - Finished transcribing in: 0.785685 seconds.
+
+2026-01-15 20:58:45,190 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:45,191 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:45,689 - INFO - Finished normalizing output text in: 0.498161 seconds.
+
+2026-01-15 20:58:45,692 - INFO - -------------------------------------------------
+2026-01-15 20:58:45,692 - INFO - Transcribing 349/350: ./dataset/Spanish_Male_audiovoice_50_bgnoise_20.wav ...
+2026-01-15 20:58:46,473 - INFO - Finished transcribing in: 0.781376 seconds.
+
+2026-01-15 20:58:46,474 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:46,474 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:47,098 - INFO - Finished normalizing output text in: 0.624287 seconds.
+
+2026-01-15 20:58:47,101 - INFO - -------------------------------------------------
+2026-01-15 20:58:47,101 - INFO - Transcribing 350/350: ./dataset/Spanish_Male_audiovoice_50_bgnoise_50.wav ...
+2026-01-15 20:58:47,886 - INFO - Finished transcribing in: 0.785149 seconds.
+
+2026-01-15 20:58:47,886 - INFO - Normalizing output transcribed text...
+2026-01-15 20:58:47,887 - WARNING - Your input is too long and could take a long time to normalize. Use split_text_into_sentences() to make the input shorter and then call normalize_list().
+2026-01-15 20:58:48,474 - INFO - Finished normalizing output text in: 0.587518 seconds.
+
+2026-01-15 20:58:48,477 - INFO - Saving outputs...
+2026-01-15 20:58:48,484 - INFO - End Timestamp: 2026-01-15T20:58:48.484212
+
