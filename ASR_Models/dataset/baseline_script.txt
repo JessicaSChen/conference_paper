@@ -1,0 +1,55 @@
+Workflow Step 1. Fusion registration. Access establishment. Registration of fusion (1 anteroposterior and 1 lateral at 90 degrees LAO projection fluoroscopy images are needed to complete registration).
+
+Workflow Step 2. Adjunctive embolization (optional). Insertion of steerable sheath. Deployment of the last embolic material.
+
+Workflow Step 3. Sheath insertion. Advancement of Lunderquist wire to the ascending aorta. Insertion of 24 Fr sheath (DrySeal; Gore) and pigtail catheter to the contralateral limb and endograft insertion ipsilaterally.
+
+Workflow Step 4. Main body insertion. Insertion of fenestrated main body device.
+
+Workflow Step 5. Deployment. DSA. DSA of the visceral and abdominal aorta to depict anatomy and adjustment of fusion mask.
+
+Workflow Step 6. Main body deployment. Partial deployment of the endograft. Catheterization of the main body and advancement of DrySeal and steerable sheath.
+
+Workflow Step 7. Renal artery catheterizations. Orientation of steerable sheath to renal fenestration. Rosen wire advancement after confirmation of appropriate catheterization.
+
+Workflow Step 8. Superior mesenteric artery catheterization. Orientation of steerable sheath to SMA fenestration. Rosen wire advancement after confirmation of appropriate catheterization.
+
+Workflow Step 9. CT catheterization. Orientation of steerable sheath to CT fenestration. Rosen wire advancement after confirmation of appropriate catheterization.
+
+Workflow Step 10. Graft release. Advancement of CT stent into position (without deployment). Release of proximal and distal endograft attachments and reducing ties.
+
+Workflow Step 11. CA stent. Position of stent with 4 millimeters protruding into the aortic lumen. Flaring with 10 millimeter balloon.
+
+Workflow Step 12. DSA of the CA. Selective DSA to confirm appropriate position of the bridging stent and exclude any endoleak or target vessel dissection.
+
+Workflow Step 13. SMA stent. Advancement of the SMA stent and appropriate position. Flaring with 10 millimeter balloon.
+
+Workflow Step 14. DSA of the SMA. Selective DSA to confirm appropriate position of the bridging stent and exclude any endoleak or target vessel dissection.
+
+Workflow Step 15. Renal stents. Advancement of the renal stent and appropriate position. Flaring with 9 millimeter balloon.
+
+Workflow Step 16. DSA of the renals. Selective DSA to confirm appropriate position of the bridging stent and exclude any endoleak or target vessel dissection.
+
+Workflow Step 17. Bifurcated graft insertion. Drawback of DrySeal sheath. Insertion of bifurcated graft.
+
+Workflow Step 18. DSA for the detection of the IIA. Selective DSA to detect position of the ipsilateral IIA.
+
+Workflow Step 19. Bifurcated graft deployment. Unsheath of bifurcated endograft. Complete deployment.
+
+Workflow Step 20. Catheterization of the CL limb. Insertion of hydrophilic .035 wire. Confirmation of CL catheterization using molding balloon.
+
+Workflow Step 21. DSA for the detection of CL IIA. Selective DSA to detect position of the contralateral IIA.
+
+Workflow Step 22. CL limb insertion and deployment. Insertion of CL limb. Complete deployment of CL limb.
+
+Workflow Step 23. Molding balloon. Advancement of molding balloon to the ipsilateral limb. Molding balloon at the distal part of the CL limb.
+
+Workflow Step 24. Completion DSA. Final DSA of the visceral, abdominal aorta down to distal landing zones to confirm appropriate position of the endograft and bridging stent and exclude presence of any endoleak.
+
+Workflow Step 25. CBCT centering. Scouting fluoroscopy images to prepare for CBCT.
+
+Workflow Step 26. CBCT. Performance of CBCT without contrast to detect any early technical pitfalls.
+
+Workflow Step 27. Additional repairs (optional). Any maneuvers required to repair existing stent graft based on issues identified on completion DSA or CBCT.
+
+Workflow Step 28. Sheath removal. Removal of sheaths.
