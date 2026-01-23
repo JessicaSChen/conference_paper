@@ -11,7 +11,8 @@ This repository generates the final dataset used in the accompanying conference 
 
 Download and extract the `ffmpeg-release-essentials.zip` file from https://www.gyan.dev/ffmpeg/builds/.
 
-####macOS
+#### macOS
+
 Install using Homebrew: 
 `brew install ffmpeg`
 
