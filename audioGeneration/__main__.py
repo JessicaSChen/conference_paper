@@ -4,6 +4,9 @@ import yt_dlp   # download Youtube video (background noise)
 from pydub import AudioSegment
 from pydub.effects import normalize
 from pydub.utils import ratio_to_db
+import pyroomacoustics as pra
+import numpy as np
+
 
 BG_NOISE = ['https://www.youtube.com/watch?v=PYvac1EyIsY']
 INPUT_ROOT = r"dataset"
@@ -42,6 +45,37 @@ def mix_audios(speech, bgnoise, speech_pct, noise_pct):
         n = n[:len(s)]
 
     return s.overlay(n)
+
+def simulate_room(speech_audio: np.ndarray) -> np.ndarray:
+    """
+    Create a simulation of speech audio in a room
+    """
+    # 1. Define the room
+    room_dim = [7.5, 7.5, 3]
+    # the OR seems to have some echo/reverb according to https://www.youtube.com/watch?v=W7aRQGYhuk0
+    room = pra.ShoeBox(room_dim, absorption=0.125, fs=TARGET_SAMPLE_RATE)
+
+    # add raytracing
+    room.set_ray_tracing(receiver_radius=0.5, n_rays=10000, energy_thres=1e-5)
+
+    # NOTE: origin is in the bottom left corner!
+
+    # 2. Source is right in the middle of the room
+    source_pos = [3.75, 3.75, 1.5]
+    # Speech
+    room.add_source(source_pos, signal=speech_audio)
+
+    # 3. Microphone in the top-left corner of the room (mimicing a surveillance camera position)
+    mic_pos = [0, 7.5, 3]
+    room.add_microphone_array(np.array([mic_pos]).T)
+
+    # 4. Run the simulation
+    room.simulate()
+
+    # 5. The simulated audio (now quieter and with reverb)
+    simulated_audio = room.mic_array.signals[0, :]
+
+    return simulated_audio
 
 def main():
     # Download Youtube background noise
