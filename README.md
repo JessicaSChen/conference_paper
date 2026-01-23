@@ -8,9 +8,11 @@ This repository generates the final dataset used in the conference paper from th
 
 ### Install Requirements (FFmpeg)
 1. Windows
+
 Download and extract the `ffmpeg-release-essentials.zip` file from https://www.gyan.dev/ffmpeg/builds/.
 
-2. macOS
+3. macOS
+4. 
 `brew install ffmpeg`
 
 ## Install Dependencies
