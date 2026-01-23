@@ -56,7 +56,7 @@ def main():
     noise_files = {
         Path(f).stem.split("_")[1]: os.path.join(INPUT_ROOT, f)
         for f in os.listdir(INPUT_ROOT)
-        if f.endswith(".wav") and "bg_noise_" in f
+        if f.endswith(".wav") and "bg_noise" in f
     }
 
     print("Loaded noise types:", noise_files.keys())
@@ -101,7 +101,7 @@ def main():
 
                 print("Saved:", out_path)
 
-    print("\Output Audio Generated")
+    print("Output Audio Generated")
 
 if __name__ == '__main__':
     main()
