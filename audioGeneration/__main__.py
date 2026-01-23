@@ -32,10 +32,10 @@ def scale_audio(audio, percent):
     gain_db = ratio_to_db(ratio)
     return audio.apply_gain(gain_db)
 
-def mix_audios(speech, bgnoise, speech_pct, noise_pct):
-    """Mix speech + noise at given percentages."""
-    s = scale_audio(speech, speech_pct)
-    n = scale_audio(bgnoise, noise_pct)
+def same_length(speech, bgnoise):
+    """Trim speech and bgnoise to be the same length."""
+    s = speech
+    n = bgnoise
 
     # Trim bgnoise if shorter than speech
     if len(n) < len(s):
@@ -77,6 +77,23 @@ def simulate_room(speech_audio: np.ndarray) -> np.ndarray:
 
     return simulated_audio
 
+def audiosegment_to_float32(audio: AudioSegment) -> np.ndarray:
+    """Convert mono 16-bit PCM AudioSegment to float32 numpy array."""
+    samples = np.array(audio.get_array_of_samples(), dtype=np.float32)
+    return samples / 32768.0
+
+def float32_to_audiosegment(x: np.ndarray, frame_rate: int) -> AudioSegment:
+    """Convert float32 numpy array to mono 16-bit PCM AudioSegment."""
+    x = np.clip(x, -1.0, 1.0)
+    x_i16 = (x * 32767).astype(np.int16)
+
+    return AudioSegment(
+        x_i16.tobytes(),
+        frame_rate=frame_rate,
+        sample_width=2,  
+        channels=1
+    )
+
 def main():
     # Download Youtube background noise
     ydl_opts = { # yt_dlp options
@@ -87,7 +104,7 @@ def main():
             'preferredquality': '192',
         }],
         'postprocessor_args': ['-t', '600'], # first 10 mins download only
-        'outtmpl': r'dataset/bg_noise', # output location
+        'outtmpl': r'dataset/BackgroundNoise/BackgroundNoise', # output location
     }
 
     # Download Youtube
@@ -97,12 +114,13 @@ def main():
     # Make final output root folder
     os.makedirs(OUTPUT_ROOT, exist_ok=True)
 
-    # Load background noise files
-    noise_files = {
-        Path(f).stem.split("_")[1]: os.path.join(INPUT_ROOT, f)
-        for f in os.listdir(INPUT_ROOT)
-        if f.endswith(".wav") and "bg_noise" in f
-    }
+    bg_noise_path = r"dataset/BackgroundNoise/BackgroundNoise.wav"
+    
+    # Load background noise once
+    bg_noise_audio = load_convert(bg_noise_path)
+
+    # Get 5, 10, 20, 50, 100 for background noise
+    background_noise_levels = {pct: scale_audio(bg_noise_audio, pct) for pct in LEVELS}
 
     print("Loaded background noise")
 
@@ -110,6 +128,8 @@ def main():
     for speaker_folder in os.listdir(INPUT_ROOT):
         speaker_path = os.path.join(INPUT_ROOT, speaker_folder)
         if not os.path.isdir(speaker_path):
+            continue
+        if speaker_folder == "BackgroundNoise":
             continue
 
         # Create corresponding output folder
@@ -121,27 +141,29 @@ def main():
             if not wav_file.endswith(".wav"):
                 continue
 
-            # Extract voice level 
-            name_noext = Path(wav_file).stem
-            voice_level = "".join(filter(str.isdigit, name_noext))
-
             # Load speech
             speech_path = os.path.join(speaker_path, wav_file)
             speech_audio = load_convert(speech_path)
 
-            # Mix audios to get every single audio and bg noise level combinations
-            for noise_level, noise_path in noise_files.items():
-                noise_audio = load_convert(noise_path)
+            # Create all levels of speaker voice (5, 10, 20, 50, 100) + bg noise folder
+            speech_levels = {pct: scale_audio(speech_audio, pct) for pct in LEVELS}
 
-                for s_pct in LEVELS:
-                    for n_pct in LEVELS:
-                        mixed = mix_audios(speech_audio, noise_audio, s_pct, n_pct)
+             # Mix audios to get every single audio and bg noise level combinations
+            for s_pct, s_audio in speech_levels.items():
 
-                        out_name = f"{OUTPUT_ROOT}_audiovoice{s_pct}_bgnoise{n_pct}.wav"
+                # Operating room simulation (reverb, pyroomacoustics)
+                s_f32 = audiosegment_to_float32(s_audio)
+                s_sim_f32 = simulate_room(s_f32)
+                s_sim_audio = float32_to_audiosegment(s_sim_f32, TARGET_SAMPLE_RATE)
 
-                        out_path = os.path.join(speaker_output_dir, out_name)
-                        mixed.export(out_path, format="wav")
-                        print("Saved:", out_path)
+                for n_pct, n_audio in background_noise_levels.items():
+                    mixed = same_length(s_sim_audio, n_audio)
+
+                    # Save file (one combination)
+                    out_name = f"{Path(wav_file).stem}_audiovoice{s_pct}_bgnoise{n_pct}.wav"
+                    out_path = os.path.join(speaker_output_dir, out_name)
+                    mixed.export(out_path, format="wav")
+                    print("Saved:", out_path)         
 
     print("Output Audio Generated")
 
