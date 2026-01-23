@@ -20,7 +20,7 @@ Install using Homebrew:
 Execute the following command from the repository to install Python dependencies:
 `pip install -r requirements.txt`
 
-## Run the Script
+## Generate the Dataset
 Execute the following command from the repository to run the script and generate the final dataset: 
 `python -m audioGeneration`
 
