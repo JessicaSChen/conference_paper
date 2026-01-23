@@ -1,5 +1,5 @@
 # ASR_Evaluation_in_EVAR_Surgical_Workflow
-This repository generates the final dataset used in the conference paper from the input dataset of english accents (total of 12).
+This repository generates the final dataset used in the conference paper from the input dataset of 12 English Accents.
 
 ## Requirements
 - Python 3.9+
